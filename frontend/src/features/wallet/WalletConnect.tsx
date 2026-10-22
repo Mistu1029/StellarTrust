@@ -1,0 +1,45 @@
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
+import { Icon } from "@/components/Icon";
+import { useIdentity } from "@/components/IdentityProvider";
+import { connectWalletAndSignIn, disconnectWallet } from "@/lib/wallet-auth";
+import { WalletBalances } from "./WalletBalances";
+
+export function WalletConnect() {
+  const { session, isVerified, loading } = useIdentity();
+  const [pending, setPending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function connect() {
+    setPending(true);
+    setError(null);
+    // Only a throw with no message is treated as a cancelled wallet prompt —
+    // the kit signals a dismissed modal that way. Anything that carries a
+    // message says what actually failed, including an unreachable API, and
+    // reporting it as a cancellation would send the user back to their wallet
+    // to fix a problem that is not there.
+    try { await connectWalletAndSignIn(); }
+    catch (err) { setError(err instanceof Error && err.message ? err.message : "Wallet connection was cancelled"); }
+    finally { setPending(false); }
+  }
+
+  async function disconnect() {
+    setPending(true);
+    setError(null);
+    try { await disconnectWallet(); }
+    catch (err) { setError(err instanceof Error ? err.message : "Could not disconnect wallet"); }
+    finally { setPending(false); }
+  }
+
+  if (session) {
+    const key = session.wallet.stellarPublicKey;
+    return <div className="flex max-w-2xl flex-col gap-sm">
+      <div className="flex flex-col gap-sm sm:flex-row sm:items-center"><div className="flex min-h-11 items-center gap-sm rounded-md border border-hairline-dark bg-surface-card-dark px-md"><span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-status-verified/10 text-status-verified"><Icon name="wallet" className="h-4 w-4" /></span><div className="min-w-0"><p className="data-label">Wallet connected</p><p className="truncate font-mono text-xs text-body" title={key}>{key.slice(0, 7)}…{key.slice(-6)}</p></div></div><Link href={isVerified ? "/dashboard" : "/kyc"} className="btn-primary w-full justify-center sm:w-auto">{loading ? "Checking account…" : isVerified ? "Open dashboard" : "Continue verification"} <Icon name="arrow-right" className="h-4 w-4" /></Link><button type="button" onClick={() => void disconnect()} disabled={pending} className="min-h-11 px-sm text-sm font-medium text-muted-strong transition hover:text-on-dark disabled:opacity-50">{pending ? "Disconnecting…" : "Disconnect"}</button></div>
+      <WalletBalances accessToken={session.accessToken} />
+    </div>;
+  }
+
+  return <div><div className="flex flex-col gap-sm sm:flex-row sm:flex-wrap"><button type="button" disabled={pending} onClick={() => void connect()} className="btn-primary w-full sm:w-auto sm:min-w-[210px]"><Icon name="wallet" className="h-4 w-4" />{pending ? "Approve in wallet…" : "Connect wallet"}</button><Link href="/escrow" className="btn-secondary-dark w-full justify-center sm:w-auto">Explore escrow</Link></div>{error ? <p role="alert" className="mt-sm flex max-w-lg items-start gap-xs text-sm text-status-refunded"><span aria-hidden="true">●</span>{error}</p> : null}</div>;
+}
