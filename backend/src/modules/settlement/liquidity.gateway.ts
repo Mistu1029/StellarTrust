@@ -17,7 +17,7 @@ import {
   type CurrencyCode,
   type RouteHop,
   type SettlementRouteDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { ChainError } from "../../lib/errors.js";
 

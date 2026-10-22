@@ -1,8 +1,8 @@
-Written for: engineers joining the StellarTrust mobile app.
+Written for: engineers joining the T-rex-Star mobile app.
 
-# StellarTrust — mobile app
+# T-rex-Star — mobile app
 
-The React Native client for StellarTrust. Same platform, same database, same
+The React Native client for T-rex-Star. Same platform, same database, same
 contracts of record as the web app in [`frontend/`](../frontend) — this is not a
 parallel implementation.
 
@@ -11,7 +11,7 @@ parallel implementation.
 - **Design**: the tokens in [`docs/DESIGN.md`](../docs/DESIGN.md), transcribed
   to [`src/theme/tokens.ts`](src/theme/tokens.ts). Signal Yellow `#fcd535` on a
   near-black canvas, Inter for UI, IBM Plex Mono for money, rates and IDs.
-- **Types**: every API call is typed against `@stellartrust/shared`. The app
+- **Types**: every API call is typed against `@t-rex-star/shared`. The app
   defines no DTO of its own, so a contract change fails the build rather than
   drifting.
 
@@ -40,7 +40,7 @@ A dev client is the supported way to run this app: `npm run android` or
 
 ```
 src/
-  api/          transport + typed client over the StellarTrust API
+  api/          transport + typed client over the T-rex-Star API
   auth/         SEP-10 sign-in, device keystore wallet, WalletConnect, session
   components/   the design system as RN primitives
   features/     one folder per surface (escrow, settlement, rwa, kyc, …)

@@ -12,7 +12,7 @@ import {
   ProviderCheckStatus,
   type KycProviderChecks,
   type KycRiskAdvisory,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import {
   DEFAULT_POLICIES,
   VerificationMode,

@@ -6,7 +6,7 @@ import {
   SettlementTransition,
   type PayoutDestinationInput,
   type SettlementTransitionDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";
 import { isBalanced } from "../ledger/ledger.balance.js";

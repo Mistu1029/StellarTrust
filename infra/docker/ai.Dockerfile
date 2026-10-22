@@ -1,5 +1,5 @@
-# StellarTrust AI Risk Service image. Build context = ai/ directory.
-#   docker build -f infra/docker/ai.Dockerfile -t stellartrust-ai ./ai
+# T-rex-Star AI Risk Service image. Build context = ai/ directory.
+#   docker build -f infra/docker/ai.Dockerfile -t t-rex-star-ai ./ai
 FROM python:3.12-slim AS base
 WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1

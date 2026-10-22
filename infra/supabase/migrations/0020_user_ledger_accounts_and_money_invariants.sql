@@ -1,4 +1,4 @@
--- StellarTrust — per-user ledger accounts + money-safety invariants
+-- T-rex-Star — per-user ledger accounts + money-safety invariants
 -- (plane.md §4.5 and §4.3). Forward-only Postgres/Supabase migration
 -- (Rules.md §2).
 --

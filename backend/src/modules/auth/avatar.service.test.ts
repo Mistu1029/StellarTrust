@@ -7,7 +7,7 @@
  * files are stored and later rendered in a browser.
  */
 import { describe, expect, it } from "vitest";
-import { AVATAR_MAX_BYTES } from "@stellartrust/shared";
+import { AVATAR_MAX_BYTES } from "@t-rex-star/shared";
 import { decodeAvatarDataUrl } from "./avatar.service.js";
 
 function dataUrl(declaredType: string, bytes: Buffer): string {

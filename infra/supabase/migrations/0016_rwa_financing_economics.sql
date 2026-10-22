@@ -1,4 +1,4 @@
--- StellarTrust — RWA financing economics (plane.md §1.2)
+-- T-rex-Star — RWA financing economics (plane.md §1.2)
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Financing model: DISCOUNT / FACTORING (decided 2026-09-03, plane.md §1.2).

@@ -8,7 +8,7 @@
 import {
   ledgerTransactionInputSchema,
   type CurrencyCode,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ValidationError } from "../../lib/errors.js";
 import { assertBalanced } from "./ledger.balance.js";
 import type {

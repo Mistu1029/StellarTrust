@@ -9,7 +9,7 @@
  * holdings in a single round trip. Four separate calls here would mean four
  * chances to fail and a screen that assembles itself in pieces.
  */
-import { OrderStatus, type CurrencyCode } from "@stellartrust/shared";
+import { OrderStatus, type CurrencyCode } from "@t-rex-star/shared";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useMemo, useState } from "react";
 import { StyleSheet, View } from "react-native";

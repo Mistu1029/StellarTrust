@@ -1,7 +1,7 @@
 /**
  * Metro configuration.
  *
- * `@stellartrust/shared` is a `file:` dependency living outside this package,
+ * `@t-rex-star/shared` is a `file:` dependency living outside this package,
  * which npm links as a symlink. Metro watches only the project root by
  * default, so the shared sources would otherwise be invisible to the bundler
  * even though TypeScript resolves them fine.

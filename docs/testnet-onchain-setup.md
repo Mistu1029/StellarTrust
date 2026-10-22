@@ -26,10 +26,10 @@ Already done, by `contracts/scripts/setup-testnet.ps1`:
 
 | Role | Identity | Address |
 |---|---|---|
-| Arbiter / backend signer | `stellartrust-arbiter` | `GCD32N3MW23NYDOYNQ4OX5STW6COAQX3M5PN3BVV36SVHMUCKENRJW7I` |
-| Test USDC issuer | `stellartrust-issuer` | `GC53S46OCINPU3WM5XNPMJUQED6ASJHSZ2X5TPNZZ6JPFL27OMIRZ6XQ` |
-| Test buyer (5000 USDC) | `stellartrust-buyer` | `GDBTAOXNVMJKYCYTELDMIMHD6LRES7V46I52XJS2Y775RSL3OE5GHV7I` |
-| Test seller (trustline only) | `stellartrust-seller` | `GBLQNLFMG6E7J56EPYRHQBMK7N7BNRHPS4UBJKRRPPMGVHR6GATTAV77` |
+| Arbiter / backend signer | `t-rex-star-arbiter` | `GCD32N3MW23NYDOYNQ4OX5STW6COAQX3M5PN3BVV36SVHMUCKENRJW7I` |
+| Test USDC issuer | `t-rex-star-issuer` | `GC53S46OCINPU3WM5XNPMJUQED6ASJHSZ2X5TPNZZ6JPFL27OMIRZ6XQ` |
+| Test buyer (5000 USDC) | `t-rex-star-buyer` | `GDBTAOXNVMJKYCYTELDMIMHD6LRES7V46I52XJS2Y775RSL3OE5GHV7I` |
+| Test seller (trustline only) | `t-rex-star-seller` | `GBLQNLFMG6E7J56EPYRHQBMK7N7BNRHPS4UBJKRRPPMGVHR6GATTAV77` |
 
 The USDC Stellar Asset Contract is
 `CAB4KXQRRX5JJT5MMLSYDAA2WCJ6UKLNOBUZSKJ6MQI2MHZT3E766HQA`, wrapping
@@ -58,7 +58,7 @@ asset wrapped as a SAC is the supported path.
 ## Remaining step: upload the contract WASM
 
 ```powershell
-./contracts/scripts/deploy-testnet.ps1 -Source stellartrust-arbiter
+./contracts/scripts/deploy-testnet.ps1 -Source t-rex-star-arbiter
 ```
 
 Copy the `ESCROW_WASM_HASH` it prints into `backend/.env`. The backend deploys

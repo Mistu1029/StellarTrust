@@ -6,7 +6,7 @@
  * mistake here offers someone an action that will be refused — or worse, hides
  * the one step that would release their funds.
  */
-import { OrderStatus, PaymentTransition } from "@stellartrust/shared";
+import { OrderStatus, PaymentTransition } from "@t-rex-star/shared";
 import { actionsFor, statusExplanation } from "./transitions";
 
 const transitions = (status: string, party: "buyer" | "seller") =>

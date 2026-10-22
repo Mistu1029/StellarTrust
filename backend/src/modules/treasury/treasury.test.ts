@@ -13,7 +13,7 @@
  * would move the wrong quantity of real value while every test still passed.
  */
 import { beforeEach, describe, expect, it } from "vitest";
-import { type CurrencyCode } from "@stellartrust/shared";
+import { type CurrencyCode } from "@t-rex-star/shared";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";
 import { InMemoryLedgerRepository } from "../ledger/ledger.repository.js";
 import { LedgerService } from "../ledger/ledger.service.js";

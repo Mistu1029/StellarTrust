@@ -1,5 +1,5 @@
 /** Error taxonomy for the API transport. Mirrors the web client's shape. */
-import type { ApiError } from "@stellartrust/shared";
+import type { ApiError } from "@t-rex-star/shared";
 
 /** The server answered, and the answer was an error. */
 export class ApiClientError extends Error {
@@ -41,7 +41,7 @@ export class ApiUnreachableError extends Error {
     baseUrl: string,
   ) {
     super(
-      `Could not reach StellarTrust at ${baseUrl}. Check your connection and try again.`,
+      `Could not reach T-rex-Star at ${baseUrl}. Check your connection and try again.`,
     );
     this.name = "ApiUnreachableError";
   }

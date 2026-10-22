@@ -14,7 +14,7 @@ import {
   railsForCurrency,
   type CorridorDTO,
   type PayoutRailSpec,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 interface CorridorSeed {
   source: CurrencyCode;

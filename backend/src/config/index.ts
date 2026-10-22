@@ -50,7 +50,7 @@ function normalizeOrigin(value: string): string {
  * Currency → Soroban token contract bindings. Kept here rather than in the
  * shared package because it is deployment configuration, not a wire contract.
  * The currency keys are validated loosely (any code) so adding a currency to
- * `@stellartrust/shared` does not require a config-schema change; resolution
+ * `@t-rex-star/shared` does not require a config-schema change; resolution
  * failures surface at `resolveToken()` with the currency named.
  */
 const tokenContractMapSchema = z.record(
@@ -626,7 +626,7 @@ export const config = Object.freeze({
   ...parsed.data,
   isProduction: parsed.data.NODE_ENV === "production",
   isTest: parsed.data.NODE_ENV === "test",
-  serviceName: "stellartrust-backend",
+  serviceName: "t-rex-star-backend",
   version: process.env.npm_package_version ?? "0.0.0",
 });
 

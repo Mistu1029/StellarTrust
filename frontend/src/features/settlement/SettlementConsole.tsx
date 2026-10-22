@@ -16,7 +16,7 @@ import {
   type PayoutRailSpec,
   type SettlementDetailsResponse,
   type SettlementQuoteDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import Link from "next/link";
 import { type FormEvent, useCallback, useEffect, useMemo, useState } from "react";
 import { Icon } from "@/components/Icon";

@@ -1,6 +1,6 @@
 "use client";
 
-import { CurrencyCode, DISPUTABLE_ORDER_STATUSES, EscrowState, LEDGER_CURRENCY_DECIMALS, OrderStatus, type DisputeDTO, type OrderDetailsResponse, type PublicUserRef } from "@stellartrust/shared";
+import { CurrencyCode, DISPUTABLE_ORDER_STATUSES, EscrowState, LEDGER_CURRENCY_DECIMALS, OrderStatus, type DisputeDTO, type OrderDetailsResponse, type PublicUserRef } from "@t-rex-star/shared";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { type FormEvent, useEffect, useMemo, useRef, useState } from "react";

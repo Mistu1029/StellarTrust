@@ -38,7 +38,7 @@
 param(
   [string]$AssetCode = "USDC",
   [string]$Network = "testnet",
-  [string]$Prefix = "stellartrust",
+  [string]$Prefix = "t-rex-star",
   [string]$EnvOut
 )
 
@@ -131,7 +131,7 @@ function New-FundedIdentity {
   return $address.Trim()
 }
 
-Write-Host "Provisioning StellarTrust escrow accounts on $Network..." -ForegroundColor Cyan
+Write-Host "Provisioning T-rex-Star escrow accounts on $Network..." -ForegroundColor Cyan
 Write-Host ""
 
 Write-Host "Identities:"

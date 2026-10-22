@@ -13,7 +13,7 @@
  * about what production does.
  */
 
-import { EntryDirection, type CurrencyCode } from "@stellartrust/shared";
+import { EntryDirection, type CurrencyCode } from "@t-rex-star/shared";
 import type { LedgerService } from "../ledger/ledger.service.js";
 import { CASH_CLEARING } from "../ledger/system-accounts.js";
 import type { RwaActor, RwaService } from "./rwa.service.js";

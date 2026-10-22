@@ -3,7 +3,7 @@ import type {
   HumanKycDecision,
   KycApplicationResponse,
   KycReviewItem,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 export interface KycVerificationRecord {
   userId: string;

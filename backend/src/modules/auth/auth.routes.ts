@@ -5,7 +5,7 @@ import {
   sep10ChallengeRequestSchema,
   sep10VerifyRequestSchema,
   updateProfileInputSchema,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { NotFoundError, ValidationError } from "../../lib/errors.js";
 import { storeAvatar } from "./avatar.service.js";
 import {

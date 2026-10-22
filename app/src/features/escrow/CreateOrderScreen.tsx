@@ -6,7 +6,7 @@
  * someone's balance. The parse is the same string-based one the web client
  * uses, so "10.005" is accepted or rejected identically on both.
  */
-import { SUPPORTED_CURRENCIES, type CurrencyCode } from "@stellartrust/shared";
+import { SUPPORTED_CURRENCIES, type CurrencyCode } from "@t-rex-star/shared";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
 import { StyleSheet, View } from "react-native";

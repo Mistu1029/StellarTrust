@@ -1,4 +1,4 @@
--- StellarTrust — Phase 4 addendum: durable dispute persistence
+-- T-rex-Star — Phase 4 addendum: durable dispute persistence
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

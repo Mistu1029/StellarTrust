@@ -20,7 +20,7 @@
       "distribution": "internal",
       "channel": "preview",
       "env": {
-        "EXPO_PUBLIC_API_BASE_URL": "https://stellartrust.onrender.com",
+        "EXPO_PUBLIC_API_BASE_URL": "https://t-rex-star.onrender.com",
         "EXPO_PUBLIC_STELLAR_NETWORK": "testnet",
         "EXPO_PUBLIC_HORIZON_URL": "https://horizon-testnet.stellar.org"
       },

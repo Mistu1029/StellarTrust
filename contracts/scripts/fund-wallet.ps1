@@ -36,7 +36,7 @@ param(
   [string]$AssetCode = "USDC",
   [decimal]$Usdc = 1000,
   [string]$Network = "testnet",
-  [string]$Prefix = "stellartrust"
+  [string]$Prefix = "t-rex-star"
 )
 
 $ErrorActionPreference = "Stop"

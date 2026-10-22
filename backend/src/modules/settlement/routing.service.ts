@@ -7,7 +7,7 @@
  * settlement. Pure functions with no I/O so routing is trivially testable and
  * reproducible for audit (Phase 3 acceptance: best path + fee/slippage limits).
  */
-import type { SettlementRouteDTO } from "@stellartrust/shared";
+import type { SettlementRouteDTO } from "@t-rex-star/shared";
 import { ValidationError } from "../../lib/errors.js";
 
 export interface RoutingConstraints {

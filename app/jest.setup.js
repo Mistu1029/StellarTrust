@@ -39,11 +39,11 @@ jest.mock("expo-constants", () => ({
   default: {
     expoConfig: {
       extra: {
-        apiBaseUrl: "https://api.test.stellartrust.local",
+        apiBaseUrl: "https://api.test.t-rex-star.local",
         stellarNetwork: "testnet",
         horizonUrl: "https://horizon-testnet.stellar.org",
         walletConnectProjectId: "",
-        sep10HomeDomain: "test.stellartrust.local",
+        sep10HomeDomain: "test.t-rex-star.local",
       },
     },
   },

@@ -14,7 +14,7 @@ import {
   type PublicUserRef,
   type UserProfile,
   type WalletRef,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 
 /**
@@ -128,7 +128,7 @@ export class InMemoryIdentityRepository implements IdentityRepository {
     const user: UserProfile = {
       id: userId,
       // Replaced by the KYC onboarding email; not externally delivered.
-      email: `wallet-${stellarPublicKey.slice(0, 12)}@pending.stellartrust.local`,
+      email: `wallet-${stellarPublicKey.slice(0, 12)}@pending.t-rex-star.local`,
       ...(displayName ? { displayName } : {}),
       // No `usernameSetAt`: this is the generated handle, so the user's one
       // claim is still available.

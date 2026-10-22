@@ -1,4 +1,4 @@
--- StellarTrust — Phase 1: Identity & Wallet
+-- T-rex-Star — Phase 1: Identity & Wallet
 -- Forward-only Postgres/Supabase migration.
 --
 -- Security model:

@@ -1,4 +1,4 @@
-import type { DisputeStatus, EscrowState, KycStatus, OrderStatus, SettlementStatus, TokenizationStatus, PayoutStatus } from "@stellartrust/shared";
+import type { DisputeStatus, EscrowState, KycStatus, OrderStatus, SettlementStatus, TokenizationStatus, PayoutStatus } from "@t-rex-star/shared";
 
 type Status = DisputeStatus | EscrowState | KycStatus | OrderStatus | SettlementStatus | TokenizationStatus | PayoutStatus;
 

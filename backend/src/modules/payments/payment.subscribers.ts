@@ -11,7 +11,7 @@
  * decides what that means for an order. Settlement never learns what an escrow
  * is.
  */
-import { PaymentTransition } from "@stellartrust/shared";
+import { PaymentTransition } from "@t-rex-star/shared";
 import { logger } from "../../lib/logger.js";
 import type { EventHandler } from "../events/event.bus.js";
 import type { DomainEvent } from "../events/event.repository.js";

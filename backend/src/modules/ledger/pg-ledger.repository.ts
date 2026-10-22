@@ -17,7 +17,7 @@
  * Parameterized queries only (Rules.md §7).
  */
 import type pg from "pg";
-import type { CurrencyCode, EntryDirection } from "@stellartrust/shared";
+import type { CurrencyCode, EntryDirection } from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 import { assertBalanced } from "./ledger.balance.js";
 import type { AccountBalance, LedgerRepository } from "./ledger.repository.js";

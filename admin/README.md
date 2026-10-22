@@ -1,4 +1,4 @@
-# StellarTrust — Operations console
+# T-rex-Star — Operations console
 
 A **separately deployed, privately hosted** admin application. It is not part
 of the public API and must never share a hostname with it: the point of the

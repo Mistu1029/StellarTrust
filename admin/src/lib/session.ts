@@ -11,7 +11,7 @@ import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 import type { NextFunction, Request, Response } from "express";
 import { config } from "../config.js";
 
-const COOKIE_NAME = "stellartrust_admin";
+const COOKIE_NAME = "t-rex-star_admin";
 
 interface SessionPayload {
   /** Issued-at, epoch milliseconds. */

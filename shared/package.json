@@ -1,8 +1,8 @@
 {
-  "name": "@stellartrust/shared",
+  "name": "@t-rex-star/shared",
   "version": "0.0.0",
   "private": true,
-  "description": "StellarTrust shared contracts of record: cross-portion types, constants, validation schemas, and error codes. No runtime logic. No secrets.",
+  "description": "T-rex-Star shared contracts of record: cross-portion types, constants, validation schemas, and error codes. No runtime logic. No secrets.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -5,7 +5,7 @@ import {
   DisputeStatus,
   type CurrencyCode,
   type OrderDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";
 import { DeterministicDisputeRiskClient } from "./dispute-risk.client.js";

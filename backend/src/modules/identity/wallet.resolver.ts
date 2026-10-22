@@ -9,7 +9,7 @@
  * Lives in `identity` because that is what it resolves; escrow and RWA both
  * depend on it.
  */
-import type { WalletRef } from "@stellartrust/shared";
+import type { WalletRef } from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 import { isAccountAddress } from "../stellar/address.js";
 

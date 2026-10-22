@@ -1,6 +1,6 @@
 "use client";
 
-import { OrderStatus, type OrderDetailsResponse } from "@stellartrust/shared";
+import { OrderStatus, type OrderDetailsResponse } from "@t-rex-star/shared";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
@@ -91,7 +91,7 @@ export function UserDashboard() {
     return <DashboardLoading />;
   }
 
-  const name = profile.user.displayName?.trim() || "StellarTrust user";
+  const name = profile.user.displayName?.trim() || "T-rex-Star user";
   const wallet = profile.wallets[0] ?? session.wallet;
   const recentOrders = orders.slice(0, 3);
 

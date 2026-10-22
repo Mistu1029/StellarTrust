@@ -99,7 +99,7 @@ export function CreateWalletScreen({ onCancel }: { onCancel: () => void }) {
             A key only you hold
           </Text>
           <Text variant="bodyMd" tone={color.muted}>
-            StellarTrust will generate a Stellar account on this device. The
+            T-rex-Star will generate a Stellar account on this device. The
             secret key is stored in the phone&apos;s secure hardware and is
             unlocked by your fingerprint or face.
           </Text>

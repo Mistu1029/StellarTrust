@@ -32,7 +32,7 @@ import {
   type DisputeLogEntryDTO,
   type OpenDisputeInput,
   type OrderDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import {
   ConflictError,

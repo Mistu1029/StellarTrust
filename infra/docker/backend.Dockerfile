@@ -1,5 +1,5 @@
-# StellarTrust backend image. Build context = repo root (needs shared/ + backend/).
-#   docker build -f infra/docker/backend.Dockerfile -t stellartrust-backend .
+# T-rex-Star backend image. Build context = repo root (needs shared/ + backend/).
+#   docker build -f infra/docker/backend.Dockerfile -t t-rex-star-backend .
 FROM node:20-alpine AS base
 WORKDIR /app
 

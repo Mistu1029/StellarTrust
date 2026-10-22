@@ -24,7 +24,7 @@ import {
   CurrencyCode,
   EscrowState,
   PaymentTransition,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ChainError, ConflictError } from "../../lib/errors.js";
 import { config } from "../../config/index.js";
 import { logger } from "../../lib/logger.js";

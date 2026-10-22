@@ -1,4 +1,4 @@
--- StellarTrust — Phase 2: Core Payment + Escrow
+-- T-rex-Star — Phase 2: Core Payment + Escrow
 -- Forward-only Postgres/Supabase migration.
 -- Every order transition is committed in one DB transaction with a balanced
 -- ledger transaction and a linked Stellar transaction record.

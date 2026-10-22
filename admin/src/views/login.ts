@@ -6,7 +6,7 @@
  *                  wallet, and only then does a session exist
  *
  * Deliberately says nothing about what this system is. A page reading
- * "StellarTrust Admin — production" tells anyone who stumbles onto it exactly
+ * "T-rex-Star Admin — production" tells anyone who stumbles onto it exactly
  * what they have found and what it is worth attacking.
  *
  * Signing happens in Freighter when it is available, and falls back to a paste

@@ -15,7 +15,7 @@ import {
   EscrowState,
   PaymentTransition,
   ReconciliationStatus,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { InMemoryAuditRepository } from "../modules/audit/audit.repository.js";
 import {

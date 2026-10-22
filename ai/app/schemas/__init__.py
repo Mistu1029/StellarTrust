@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 
 class Recommendation(str, Enum):
-    """Advisory recommendations. Mirrors @stellartrust/shared AiRecommendation."""
+    """Advisory recommendations. Mirrors @t-rex-star/shared AiRecommendation."""
 
     RELEASE = "release"
     REFUND = "refund"

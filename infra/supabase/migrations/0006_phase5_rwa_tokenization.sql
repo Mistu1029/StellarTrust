@@ -1,4 +1,4 @@
--- StellarTrust — Phase 5: RWA Tokenization
+-- T-rex-Star — Phase 5: RWA Tokenization
 -- Forward-only Postgres/Supabase migration.
 -- Opt-in module for tokenizing real-world assets (invoices, commodities, real estate)
 -- to unlock working capital for sellers and provide transparent fractional ownership

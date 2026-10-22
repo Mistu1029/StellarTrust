@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { AVATAR_MAX_BYTES } from "@stellartrust/shared";
+import { AVATAR_MAX_BYTES } from "@t-rex-star/shared";
 import { Avatar } from "@/components/Avatar";
 import { CopyableId } from "@/components/CopyableId";
 import { Icon } from "@/components/Icon";

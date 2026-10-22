@@ -1,7 +1,7 @@
 import {
   PaymentTransition,
   submitSignedTransitionInputSchema,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { Router } from "express";
 import { ForbiddenError, ValidationError } from "../../lib/errors.js";
 import {

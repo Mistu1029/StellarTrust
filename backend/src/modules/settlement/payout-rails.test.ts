@@ -18,7 +18,7 @@ import {
   PayoutRail,
   railsForCurrency,
   validatePayoutDestination,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 
 describe("UPI virtual payment addresses", () => {

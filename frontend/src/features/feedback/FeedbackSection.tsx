@@ -4,7 +4,7 @@ import {
   FEEDBACK_RATING_MAX,
   type FeedbackDTO,
   type FeedbackSummaryDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { useCallback, useEffect, useId, useState } from "react";
 import { Icon } from "@/components/Icon";
 import { useIdentity } from "@/components/IdentityProvider";
@@ -321,7 +321,7 @@ export function FeedbackSection() {
                 No feedback yet
               </h4>
               <p className="mx-auto mt-xs max-w-md text-sm text-muted">
-                Be the first to review StellarTrust.
+                Be the first to review T-rex-Star.
               </p>
             </div>
           )}

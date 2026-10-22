@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { randomUUID } from "node:crypto";
-import { CurrencyCode, EntryDirection } from "@stellartrust/shared";
+import { CurrencyCode, EntryDirection } from "@t-rex-star/shared";
 import { LedgerError } from "../../lib/errors.js";
 import { assertBalanced, isBalanced } from "./ledger.balance.js";
 import { InMemoryLedgerRepository } from "./ledger.repository.js";

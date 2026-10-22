@@ -23,7 +23,7 @@ import type {
   KycReviewItem,
   KycRiskAdvisory,
   ReviewStatus,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import type {
   KycRepository,
   KycVerificationRecord,

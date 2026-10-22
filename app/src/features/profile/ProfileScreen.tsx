@@ -6,7 +6,7 @@
  * `device-wallet.ts`; here they are additionally behind a confirm sheet that
  * says plainly what is about to happen.
  */
-import { KycStatus } from "@stellartrust/shared";
+import { KycStatus } from "@t-rex-star/shared";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import * as Clipboard from "expo-clipboard";
 import * as Haptics from "expo-haptics";

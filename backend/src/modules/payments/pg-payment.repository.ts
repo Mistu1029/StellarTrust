@@ -31,7 +31,7 @@ import {
   type PaymentTransitionDTO,
   type ReconciliationMismatchDTO,
   type StellarTxRecord,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import {
   AppError,
   ConflictError,

@@ -8,7 +8,7 @@
  * off-by-10^5 here would lock the wrong amount of real value, so the
  * conversions are integer-only and reject anything they cannot represent.
  */
-import { CurrencyCode, LEDGER_CURRENCY_DECIMALS } from "@stellartrust/shared";
+import { CurrencyCode, LEDGER_CURRENCY_DECIMALS } from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { ChainError } from "../../lib/errors.js";
 
@@ -22,7 +22,7 @@ export interface TokenBinding {
 
 /**
  * Decimal places the *ledger* uses for each currency's minor unit. Re-exported
- * from `@stellartrust/shared` so the frontend's amount parsing and this
+ * from `@t-rex-star/shared` so the frontend's amount parsing and this
  * module's on-chain conversion never disagree about the ledger's own scale.
  */
 const LEDGER_MINOR_DECIMALS = LEDGER_CURRENCY_DECIMALS;

@@ -18,7 +18,7 @@ import {
   type OrderMutationResponse,
   type PaymentCapabilitiesResponse,
   type PreparedTransitionResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import {
   ConflictError,
   ForbiddenError,

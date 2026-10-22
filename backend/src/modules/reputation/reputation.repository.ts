@@ -5,7 +5,7 @@
  * stored raw, so the formula can evolve without a migration. In-memory locally;
  * a Postgres adapter can be injected in staging/production.
  */
-import type { ReputationDTO } from "@stellartrust/shared";
+import type { ReputationDTO } from "@t-rex-star/shared";
 
 /** Raw counters we accumulate per user (score is computed from these). */
 export interface ReputationRecord {

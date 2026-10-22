@@ -1,4 +1,4 @@
--- StellarTrust — domain event spine + settlement/order linkage
+-- T-rex-Star — domain event spine + settlement/order linkage
 -- (plane.md §2.1 and §2.3)
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --

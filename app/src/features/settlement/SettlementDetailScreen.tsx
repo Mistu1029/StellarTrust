@@ -6,7 +6,7 @@
  * indication of which leg it is on is the single most common support ticket in
  * remittance. Each leg is named and timestamped as it completes.
  */
-import { SettlementStatus } from "@stellartrust/shared";
+import { SettlementStatus } from "@t-rex-star/shared";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { StyleSheet, View } from "react-native";

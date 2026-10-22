@@ -9,7 +9,7 @@
  */
 import { createHash } from "node:crypto";
 import type { NextFunction, Request, Response } from "express";
-import { idempotencyKeySchema } from "@stellartrust/shared";
+import { idempotencyKeySchema } from "@t-rex-star/shared";
 import {
   IdempotencyConflictError,
   ValidationError,

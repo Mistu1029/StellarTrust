@@ -6,7 +6,7 @@
  * stays at 60fps and one that stutters after fifty items. v2 measures rows
  * itself, so no size estimate is supplied.
  */
-import { OrderStatus } from "@stellartrust/shared";
+import { OrderStatus } from "@t-rex-star/shared";
 import { FlashList } from "@shopify/flash-list";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useMemo, useState } from "react";

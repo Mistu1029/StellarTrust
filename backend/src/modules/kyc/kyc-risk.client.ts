@@ -1,6 +1,6 @@
 /** AI KYC advisory client boundary. The AI service can never move funds. */
 import { z } from "zod";
-import { KycDecision, type KycRiskAdvisory } from "@stellartrust/shared";
+import { KycDecision, type KycRiskAdvisory } from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { ExternalServiceError } from "../../lib/errors.js";
 import type { RiskSignal } from "./providers/kyc-provider.js";

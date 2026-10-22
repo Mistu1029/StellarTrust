@@ -1,4 +1,4 @@
--- StellarTrust — RWA secondary market (plane.md §3.3)
+-- T-rex-Star — RWA secondary market (plane.md §3.3)
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Why this exists

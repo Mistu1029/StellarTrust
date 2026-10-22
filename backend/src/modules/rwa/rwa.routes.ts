@@ -8,7 +8,7 @@ import {
   CurrencyCode,
   RwaTransition,
   SUPPORTED_CURRENCIES,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ForbiddenError, ValidationError } from "../../lib/errors.js";
 import {
   type AuthedRequest,

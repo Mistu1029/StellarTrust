@@ -7,7 +7,7 @@
  * without changing the service.
  */
 import { randomUUID } from "node:crypto";
-import { EntryDirection, type CurrencyCode } from "@stellartrust/shared";
+import { EntryDirection, type CurrencyCode } from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 import { isUserAccountRef, parseUserAccountRef } from "./user-accounts.js";
 import type {

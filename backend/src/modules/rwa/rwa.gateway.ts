@@ -30,7 +30,7 @@ import {
   ChainTxStatus,
   RwaCustodyMode,
   RwaTransition,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ChainError } from "../../lib/errors.js";
 import { config } from "../../config/index.js";
 import { createSigner, type Signer } from "../stellar/signer.js";

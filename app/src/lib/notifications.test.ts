@@ -96,7 +96,7 @@ describe("running under Expo Go", () => {
         // reason.
         expoConfig: {
           extra: {
-            apiBaseUrl: "https://api.test.stellartrust.local",
+            apiBaseUrl: "https://api.test.t-rex-star.local",
             stellarNetwork: "testnet",
           },
         },
@@ -121,7 +121,7 @@ describe("running under Expo Go", () => {
         appOwnership: "expo",
         expoConfig: {
           extra: {
-            apiBaseUrl: "https://api.test.stellartrust.local",
+            apiBaseUrl: "https://api.test.t-rex-star.local",
             stellarNetwork: "testnet",
           },
         },

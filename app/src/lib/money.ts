@@ -12,7 +12,7 @@
 import {
   LEDGER_CURRENCY_DECIMALS,
   type CurrencyCode,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 /** Parse a user-entered major amount ("12.5") into a minor-unit integer string. */
 export function toMinorUnits(

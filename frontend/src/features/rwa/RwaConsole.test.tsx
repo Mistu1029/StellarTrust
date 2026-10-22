@@ -19,7 +19,7 @@ import type {
   AuthSessionResponse,
   TokenizationDTO,
   TokenizationRiskDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 // Mocked before the component is imported, so the module graph picks up the
 // double rather than the real client.

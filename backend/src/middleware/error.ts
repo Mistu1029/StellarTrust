@@ -3,8 +3,8 @@
  * Maps internal errors to the standard API error shape + HTTP status.
  * Never leaks stack traces or internal details to clients.
  */
-import type { ApiError } from "@stellartrust/shared";
-import { ErrorCode } from "@stellartrust/shared";
+import type { ApiError } from "@t-rex-star/shared";
+import { ErrorCode } from "@t-rex-star/shared";
 import type { NextFunction, Request, Response } from "express";
 import { AppError } from "../lib/errors.js";
 import { logger } from "../lib/logger.js";

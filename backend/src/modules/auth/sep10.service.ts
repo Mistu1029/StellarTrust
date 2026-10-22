@@ -18,7 +18,7 @@ import type {
   AuthSessionResponse,
   Sep10ChallengeResponse,
   Sep10VerifyRequest,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { AuthError, ConflictError } from "../../lib/errors.js";
 import type { AuthContext, BearerVerifier } from "../../middleware/auth.js";

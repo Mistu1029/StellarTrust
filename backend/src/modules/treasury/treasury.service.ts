@@ -22,7 +22,7 @@ import {
   EntryDirection,
   LEDGER_CURRENCY_DECIMALS,
   type CurrencyCode,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import {
   ConflictError,
   ForbiddenError,

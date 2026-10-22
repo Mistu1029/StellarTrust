@@ -1,4 +1,4 @@
--- StellarTrust — KYC + reputation persistence (plane.md §4.2) and the
+-- T-rex-Star — KYC + reputation persistence (plane.md §4.2) and the
 -- verification routing policy the admin console edits.
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --

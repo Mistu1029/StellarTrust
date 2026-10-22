@@ -1,4 +1,4 @@
--- StellarTrust — repair: re-apply the on-chain escrow (0008), dispute/escrow
+-- T-rex-Star — repair: re-apply the on-chain escrow (0008), dispute/escrow
 -- link (0009) and RWA holding-status (0010) schema on a database where those
 -- three migrations never ran.
 -- Forward-only Postgres/Supabase migration (Rules.md §2).

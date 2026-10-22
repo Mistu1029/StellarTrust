@@ -4,7 +4,7 @@ import { FeedbackSection } from "@/features/feedback/FeedbackSection";
 export const metadata: Metadata = {
   title: "Feedback",
   description:
-    "What people are saying about StellarTrust — and where to add your own verdict.",
+    "What people are saying about T-rex-Star — and where to add your own verdict.",
 };
 
 export default function FeedbackPage() {
@@ -19,7 +19,7 @@ export default function FeedbackPage() {
             </h1>
             <p className="mt-sm max-w-2xl leading-7 text-muted-strong">
               Unfiltered verdicts from people who moved real value through
-              StellarTrust. Your name, rating and message go on the wall — your
+              T-rex-Star. Your name, rating and message go on the wall — your
               email and wallet address never do.
             </p>
           </div>

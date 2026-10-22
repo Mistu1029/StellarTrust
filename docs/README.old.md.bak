@@ -1,8 +1,8 @@
 <p align="center">
-	<img src="https://img.shields.io/badge/StellarTrust-Submission%20Ready-0ea5e9?style=for-the-badge" alt="StellarTrust" />
+	<img src="https://img.shields.io/badge/T-rex-Star-Submission%20Ready-0ea5e9?style=for-the-badge" alt="T-rex-Star" />
 </p>
 
-<h1 align="center">StellarTrust</h1>
+<h1 align="center">T-rex-Star</h1>
 
 <p align="center"><em>Fast. Secure. Auditable. Global escrow and settlement on Stellar.</em></p>
 
@@ -29,7 +29,7 @@
 
 ## Project Overview
 
-**StellarTrust** is an AI-assisted cross-border escrow and settlement platform built on Stellar. It is designed for secure commerce where buyers need protection, sellers need fast settlement, and reviewers need a clear audit trail.
+**T-rex-Star** is an AI-assisted cross-border escrow and settlement platform built on Stellar. It is designed for secure commerce where buyers need protection, sellers need fast settlement, and reviewers need a clear audit trail.
 
 The platform combines:
 
@@ -99,7 +99,7 @@ The MVP covers the trust-critical flow for a buyer and seller:
 
 ## Architecture & Workflow
 
-StellarTrust uses separated runtimes that communicate through typed contracts and APIs. The architecture keeps financial state auditable and allows the AI service to stay advisory only.
+T-rex-Star uses separated runtimes that communicate through typed contracts and APIs. The architecture keeps financial state auditable and allows the AI service to stay advisory only.
 
 ```mermaid
 flowchart TB
@@ -222,7 +222,7 @@ Add a screenshot showing at least 3 passing tests.
 Add a 1-2 minute walkthrough video for reviewers.
 
 - Suggested platform: YouTube, Loom, Google Drive, or similar
-- Suggested title: `StellarTrust Submission Demo`
+- Suggested title: `T-rex-Star Submission Demo`
 
 ---
 
@@ -254,7 +254,7 @@ Use this table to record the exact deployment details used in the demo.
 ## Repository Structure
 
 ```
-StellarTrust/
+T-rex-Star/
 ├─ frontend/
 ├─ backend/
 ├─ ai/

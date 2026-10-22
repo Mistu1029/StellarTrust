@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // @stellartrust/shared ships TS/ESM; let Next transpile it.
-  transpilePackages: ["@stellartrust/shared"],
+  // @t-rex-star/shared ships TS/ESM; let Next transpile it.
+  transpilePackages: ["@t-rex-star/shared"],
 };
 
 export default nextConfig;

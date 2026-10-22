@@ -12,7 +12,7 @@ import {
   DisputeStatus,
   EvidenceKind,
   type DisputeEvidenceInput,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useMemo, useState } from "react";
 import { StyleSheet, View } from "react-native";

@@ -1,4 +1,4 @@
--- StellarTrust — on-chain escrow wiring
+-- T-rex-Star — on-chain escrow wiring
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

@@ -19,7 +19,7 @@
  * boundary is why this module depends on narrow read ports rather than on the
  * services themselves.
  */
-import type { CurrencyCode } from "@stellartrust/shared";
+import type { CurrencyCode } from "@t-rex-star/shared";
 import type { AuditRepository } from "../audit/audit.repository.js";
 import { ValidationError } from "../../lib/errors.js";
 import type { PolicyRepository } from "./policy.repository.js";

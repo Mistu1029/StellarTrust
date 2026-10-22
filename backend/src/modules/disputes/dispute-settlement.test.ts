@@ -9,7 +9,7 @@
 import {
   DisputeResolution,
   PaymentTransition,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";
 import { DeterministicEscrowGateway } from "../escrow/escrow.gateway.js";

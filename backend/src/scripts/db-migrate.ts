@@ -76,7 +76,7 @@ function prefixOf(filename: string): string {
 async function main(): Promise<void> {
   const apply = process.argv.includes("--apply");
 
-  console.log("StellarTrust — migration runner\n");
+  console.log("T-rex-Star — migration runner\n");
   if (!config.DATABASE_URL) {
     console.error("DATABASE_URL is not set.");
     process.exit(1);

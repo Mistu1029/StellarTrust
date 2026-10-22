@@ -12,7 +12,7 @@ import {
   type KycReviewItem,
   type KycRiskAdvisory,
   type KycStatusResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ConflictError, NotFoundError } from "../../lib/errors.js";
 import { logger } from "../../lib/logger.js";
 import type { AuditRepository } from "../audit/audit.repository.js";

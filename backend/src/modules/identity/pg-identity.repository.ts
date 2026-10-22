@@ -19,7 +19,7 @@ import {
   type PublicUserRef,
   type UserProfile,
   type WalletRef,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 import {
   generateUsername,
@@ -33,7 +33,7 @@ function toIso(value: Date | string): string {
 
 /** Deterministic placeholder email until KYC onboarding supplies a real one. */
 function pendingEmail(stellarPublicKey: string): string {
-  return `wallet-${stellarPublicKey.slice(0, 12)}@pending.stellartrust.local`;
+  return `wallet-${stellarPublicKey.slice(0, 12)}@pending.t-rex-star.local`;
 }
 
 /**

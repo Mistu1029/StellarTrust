@@ -1,5 +1,5 @@
 /** Disputes this user is a party to. */
-import { DisputeStatus } from "@stellartrust/shared";
+import { DisputeStatus } from "@t-rex-star/shared";
 import { FlashList } from "@shopify/flash-list";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";

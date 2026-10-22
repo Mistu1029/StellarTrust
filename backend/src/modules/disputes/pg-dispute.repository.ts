@@ -11,7 +11,7 @@
  * Parameterized queries only (Rules.md §7).
  */
 import type pg from "pg";
-import type { DisputeDTO } from "@stellartrust/shared";
+import type { DisputeDTO } from "@t-rex-star/shared";
 import type { DisputeRepository } from "./dispute.repository.js";
 
 interface DisputeRow {

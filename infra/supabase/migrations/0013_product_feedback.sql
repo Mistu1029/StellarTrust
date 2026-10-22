@@ -1,4 +1,4 @@
--- StellarTrust — Phase 6: product feedback wall
+-- T-rex-Star — Phase 6: product feedback wall
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

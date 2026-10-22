@@ -14,7 +14,7 @@
 import {
   ChainSigningMode,
   type PaymentTransition,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useRef } from "react";
 import { api, type WalletSignedAction } from "../../api/client";

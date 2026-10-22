@@ -15,7 +15,7 @@ import {
   KycCaptureKind,
   KycStatus,
   type KycApplicationInput,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
 import { StyleSheet, View } from "react-native";

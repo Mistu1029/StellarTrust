@@ -1,4 +1,4 @@
-import { FEEDBACK_RATING_MAX } from "@stellartrust/shared";
+import { FEEDBACK_RATING_MAX } from "@t-rex-star/shared";
 import { Icon } from "@/components/Icon";
 
 /**

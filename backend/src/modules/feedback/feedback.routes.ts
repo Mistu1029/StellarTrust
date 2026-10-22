@@ -11,7 +11,7 @@
  * one-entry-per-user rule enforceable.
  */
 import { Router } from "express";
-import type { FeedbackMutationResponse } from "@stellartrust/shared";
+import type { FeedbackMutationResponse } from "@t-rex-star/shared";
 import { ValidationError } from "../../lib/errors.js";
 import {
   type AuthedRequest,

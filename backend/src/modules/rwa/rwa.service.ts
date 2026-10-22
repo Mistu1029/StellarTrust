@@ -21,8 +21,8 @@ import {
   type TokenHoldingDTO,
   type TokenizationListResponse,
   type SecondaryTransferInput,
-} from "@stellartrust/shared";
-import type { LedgerTransactionInput } from "@stellartrust/shared";
+} from "@t-rex-star/shared";
+import type { LedgerTransactionInput } from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { networkPassphrase } from "../stellar/stellar.client.js";
 import type { RwaOperationInput } from "./rwa.gateway.js";

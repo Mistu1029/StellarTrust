@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-  Build and install the StellarTrust contracts, emitting the WASM hashes the
+  Build and install the T-rex-Star contracts, emitting the WASM hashes the
   backend needs.
 
 .DESCRIPTION
@@ -21,7 +21,7 @@
   backend; useful for poking at a contract by hand.
 #>
 param(
-  [string]$Source = "stellartrust-deployer",
+  [string]$Source = "t-rex-star-deployer",
   [string]$Network = "testnet",
   [switch]$Deploy
 )

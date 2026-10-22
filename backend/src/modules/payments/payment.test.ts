@@ -2,7 +2,7 @@ import {
   PaymentTransition,
   ReconciliationStatus,
   type PaymentTransitionDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { ReconciliationJob } from "../../jobs/reconciliation.job.js";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";

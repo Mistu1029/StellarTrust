@@ -11,7 +11,7 @@ import {
   type InvestorPortfolioResponse,
   type TokenizationDTO,
   type TokenizationRiskDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import Link from "next/link";
 import { type FormEvent, useCallback, useEffect, useState } from "react";
 import { Icon, type IconName } from "@/components/Icon";

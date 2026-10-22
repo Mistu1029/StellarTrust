@@ -72,7 +72,7 @@ export function SignInScreen({
             ST
           </Text>
         </View>
-        <Eyebrow>StellarTrust</Eyebrow>
+        <Eyebrow>T-rex-Star</Eyebrow>
         <Text variant="displayMd" tone={color.onDark}>
           Escrow that settles across borders
         </Text>
@@ -139,7 +139,7 @@ export function SignInScreen({
       ) : null}
 
       <Text variant="bodySm" tone={color.muted} center style={styles.legal}>
-        Your key never leaves this device. StellarTrust cannot move your funds
+        Your key never leaves this device. T-rex-Star cannot move your funds
         without a signature you approve.
       </Text>
     </Screen>

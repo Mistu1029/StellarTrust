@@ -5,7 +5,7 @@
  * payout over minutes, and a user watching the screen should see it advance
  * without pulling to refresh.
  */
-import { SettlementStatus } from "@stellartrust/shared";
+import { SettlementStatus } from "@t-rex-star/shared";
 import { FlashList } from "@shopify/flash-list";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useMemo, useState } from "react";

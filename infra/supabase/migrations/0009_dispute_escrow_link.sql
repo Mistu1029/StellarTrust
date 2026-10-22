@@ -1,4 +1,4 @@
--- StellarTrust — link disputes to the custody they are about
+-- T-rex-Star — link disputes to the custody they are about
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

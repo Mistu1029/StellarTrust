@@ -19,7 +19,7 @@ import {
   OrderStatus,
   PaymentTransition,
   type ChainSigningMode as ChainSigningModeType,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";
 import { InMemoryPaymentRepository } from "../payments/payment.repository.js";

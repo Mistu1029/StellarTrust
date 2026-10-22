@@ -75,13 +75,13 @@ async function getClient(): Promise<SignClient> {
       return mod.default.init({
         projectId: appConfig.walletConnectProjectId,
         metadata: {
-          name: "StellarTrust",
+          name: "T-rex-Star",
           description: "Escrow, settlement and tokenized real-world assets on Stellar.",
           url: appConfig.sep10HomeDomain
             ? `https://${appConfig.sep10HomeDomain}`
-            : "https://stellartrust.app",
-          icons: ["https://stellartrust.app/icon.png"],
-          redirect: { native: "stellartrust://", universal: undefined },
+            : "https://t-rex-star.app",
+          icons: ["https://t-rex-star.app/icon.png"],
+          redirect: { native: "t-rex-star://", universal: undefined },
         },
       });
     })();

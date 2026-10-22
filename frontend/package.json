@@ -1,8 +1,8 @@
 {
-  "name": "@stellartrust/frontend",
+  "name": "@t-rex-star/frontend",
   "version": "0.0.0",
   "private": true,
-  "description": "StellarTrust frontend \u2014 Next.js (App Router) + TypeScript + Tailwind. Dashboards (dark) + transactional surfaces (light) per DESIGN.md.",
+  "description": "T-rex-Star frontend \u2014 Next.js (App Router) + TypeScript + Tailwind. Dashboards (dark) + transactional surfaces (light) per DESIGN.md.",
   "scripts": {
     "dev": "npm run build:shared && next dev",
     "build:shared": "npm install --prefix ../shared --include=dev --no-audit --no-fund && npm run build --prefix ../shared",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@creit.tech/stellar-wallets-kit": "2.5.0",
-    "@stellartrust/shared": "file:../shared",
+    "@t-rex-star/shared": "file:../shared",
     "@supabase/server": "^1.4.0",
     "@tanstack/react-query": "5.62.7",
     "next": "15.5.20",
@@ -42,6 +42,12 @@
     "vitest": "^3.2.4"
   },
   "overrides": {
-    "protobufjs": "7.6.3"
+    "protobufjs": "7.6.3",
+    "@trezor/blockchain-link": {
+      "@stellar/stellar-sdk": "14.6.1"
+    },
+    "@trezor/blockchain-link-utils": {
+      "@stellar/stellar-sdk": "14.6.1"
+    }
   }
 }

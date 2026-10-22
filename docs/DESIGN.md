@@ -13,8 +13,8 @@ verificationNote: >-
   Settlement, Disputes, RWA, plus a Dashboard item for verified users; there is
   no language selector, theme toggle, or Log In link — sign-in is the wallet
   connect flow.
-name: StellarTrust-design
-description: A confident cross-border-finance interface adapted from Binance's design language. Anchored on a deep near-black canvas where a single signal yellow (#FCD535) carries every primary CTA, brand accent, and value-claim moment. Type runs an open Inter + IBM Plex Mono stack — Inter for editorial/UI, IBM Plex Mono (tabular) for money, rates, wallet addresses, tx hashes, and IDs. Marketing and dashboard surfaces default to the dark theme; transactional surfaces (send payment, deposit, KYC, order forms) flip to a light theme sharing the same yellow CTAs and gray-blue hairlines. Beyond Binance's up/down green/red, StellarTrust adds a small semantic status set (locked / released / refunded / disputed / review) because an escrow platform has more money states than an exchange. AI outputs are always rendered as clearly-labeled advisory, never as authoritative.
+name: T-rex-Star-design
+description: A confident cross-border-finance interface adapted from Binance's design language. Anchored on a deep near-black canvas where a single signal yellow (#FCD535) carries every primary CTA, brand accent, and value-claim moment. Type runs an open Inter + IBM Plex Mono stack — Inter for editorial/UI, IBM Plex Mono (tabular) for money, rates, wallet addresses, tx hashes, and IDs. Marketing and dashboard surfaces default to the dark theme; transactional surfaces (send payment, deposit, KYC, order forms) flip to a light theme sharing the same yellow CTAs and gray-blue hairlines. Beyond Binance's up/down green/red, T-rex-Star adds a small semantic status set (locked / released / refunded / disputed / review) because an escrow platform has more money states than an exchange. AI outputs are always rendered as clearly-labeled advisory, never as authoritative.
 
 colors:
   primary: "#fcd535"
@@ -39,7 +39,7 @@ colors:
   # value-direction (FX rate movement, credit/debit) — reused from Binance up/down
   value-up: "#0ecb81"
   value-down: "#f6465d"
-  # semantic money/status set (StellarTrust addition)
+  # semantic money/status set (T-rex-Star addition)
   status-released: "#0ecb81"
   status-refunded: "#f6465d"
   status-disputed: "#f8a11b"
@@ -416,7 +416,7 @@ components:
 
 ## Overview
 
-StellarTrust borrows Binance's visual DNA and re-points it at cross-border
+T-rex-Star borrows Binance's visual DNA and re-points it at cross-border
 escrow, settlement, and RWA tokenization. The base atmosphere is a **deep
 near-black canvas** (`{colors.canvas-dark}` — #0b0e11) holding white type and a
 single ubiquitous accent: **Signal Yellow** (`{colors.primary}` — #FCD535). That
@@ -438,7 +438,7 @@ theme. The same yellow CTAs and gray-blue hairlines
 (`{colors.hairline-on-light}` — #eaecef) thread through both — only canvas,
 surface, and text tones flip.
 
-Where StellarTrust departs from Binance: an exchange only needs price up/down,
+Where T-rex-Star departs from Binance: an exchange only needs price up/down,
 but an escrow platform has **money states**. So beyond value-direction
 green/red (`{colors.value-up}` / `{colors.value-down}`), we add a small semantic
 status set (`{colors.status-locked}` violet, `{colors.status-disputed}` amber,
@@ -460,7 +460,7 @@ verdict.
 - Value semantics: green up / red down (`{colors.value-up}` /
   `{colors.value-down}`) for FX rate movement and ledger credit/debit, applied
   as text color rather than button/card background.
-- Money-state semantics (StellarTrust addition): `{component.status-pill}`
+- Money-state semantics (T-rex-Star addition): `{component.status-pill}`
   encodes Locked / Released / Refunded / Disputed / Review / Verified / Rejected
   with a fixed color mapping — never color alone; always icon + label + color.
 - AI is advisory: `{component.ai-recommendation-card}` always carries an
@@ -540,7 +540,7 @@ Two canvas modes mapped to product context:
 - **Value Down** (`{colors.value-down}` — #f6465d): Unfavorable rate movement,
   ledger **debit**, negative deltas. Same usage rules.
 
-### Money-State Semantics (StellarTrust addition)
+### Money-State Semantics (T-rex-Star addition)
 Surfaced through `{component.status-pill}`, `{component.escrow-status-card}`, and
 KYC banners. Fixed mapping — always icon + label + color, never color alone:
 
@@ -693,7 +693,7 @@ drop shadows, no glassmorphism. Depth comes from the lightness jump between
 
 ### Top Navigation
 **`top-nav-dark`** — Dashboard/marketing nav on dark canvas. 64px tall,
-`{colors.canvas-dark}`. Yellow StellarTrust wordmark at left; primary menu;
+`{colors.canvas-dark}`. Yellow T-rex-Star wordmark at left; primary menu;
 right cluster ending in a `{component.button-primary}` CTA.
 
 *As built* (`AppShell.tsx`): the menu is Overview, Escrow, Settlement, Disputes,

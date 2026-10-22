@@ -22,7 +22,7 @@ import {
   type CurrencyCode,
   type TreasuryBalanceDTO,
   type TreasuryMovementDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { api } from "@/lib/api";
 import { useIdentity } from "@/components/IdentityProvider";
 import { StatusPill } from "@/components/StatusPill";

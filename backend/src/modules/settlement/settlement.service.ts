@@ -45,7 +45,7 @@ import {
   type SettlementQuoteDTO,
   type SettlementQuoteInput,
   type SettlementRouteDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import {
   ConflictError,

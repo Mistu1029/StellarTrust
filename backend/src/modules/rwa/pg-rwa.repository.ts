@@ -20,7 +20,7 @@
  * Parameterized queries only (Rules.md §7).
  */
 import type pg from "pg";
-import type { CurrencyCode } from "@stellartrust/shared";
+import type { CurrencyCode } from "@t-rex-star/shared";
 import { ConflictError, NotFoundError } from "../../lib/errors.js";
 import {
   LIVE_PLEDGE_STATUSES,

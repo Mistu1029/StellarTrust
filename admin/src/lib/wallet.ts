@@ -52,7 +52,7 @@ import { config } from "../config.js";
 const CHALLENGE_TTL_MS = 5 * 60_000;
 
 /** The data-entry name the operator sees in their wallet before approving. */
-const CHALLENGE_KEY = "StellarTrust admin sign-in";
+const CHALLENGE_KEY = "T-rex-Star admin sign-in";
 
 interface Challenge {
   nonce: string;

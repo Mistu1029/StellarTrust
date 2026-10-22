@@ -21,7 +21,7 @@ client = TestClient(app)
 def test_health() -> None:
     res = client.get("/health")
     assert res.status_code == 200
-    assert res.json()["service"] == "stellartrust-ai"
+    assert res.json()["service"] == "t-rex-star-ai"
 
 
 def test_sanctions_hit_forces_reject() -> None:

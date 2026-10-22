@@ -1,4 +1,4 @@
-# StellarTrust — Development Log, Issue Register & Production Plan
+# T-rex-Star — Development Log, Issue Register & Production Plan
 
 > **Purpose:** This is the working development file. It records the **real,
 > verified state** of the codebase, every **issue / problem / structural gap**

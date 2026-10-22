@@ -1,4 +1,4 @@
--- StellarTrust — seed system ledger accounts (Phase 0).
+-- T-rex-Star — seed system ledger accounts (Phase 0).
 -- These are internal accounts the platform posts against (not user-owned).
 -- Idempotent: safe to re-run.
 

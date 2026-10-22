@@ -6,7 +6,7 @@
  * riskier path — a mistyped address on Stellar is unrecoverable — so it is
  * behind an explicit toggle and a confirm sheet that shows the destination.
  */
-import type { CurrencyCode } from "@stellartrust/shared";
+import type { CurrencyCode } from "@t-rex-star/shared";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { StrKey } from "@stellar/stellar-sdk";
 import * as Haptics from "expo-haptics";

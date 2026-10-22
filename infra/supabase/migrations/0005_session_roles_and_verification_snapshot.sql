@@ -1,4 +1,4 @@
--- StellarTrust — Phase 1 addendum: persistent auth sessions & profile snapshot
+-- T-rex-Star — Phase 1 addendum: persistent auth sessions & profile snapshot
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

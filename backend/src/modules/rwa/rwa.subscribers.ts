@@ -12,7 +12,7 @@
  * once. That guarantee is load-bearing here in a way it is not for a logging
  * subscriber — these move money.
  */
-import { TokenizationStatus } from "@stellartrust/shared";
+import { TokenizationStatus } from "@t-rex-star/shared";
 import { logger } from "../../lib/logger.js";
 import type { EventHandler } from "../events/event.bus.js";
 import type { DomainEvent } from "../events/event.repository.js";

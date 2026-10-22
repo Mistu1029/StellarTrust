@@ -3,7 +3,7 @@ import type {
   EntryDirection,
   LedgerEntryInput,
   LedgerTransactionInput,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 export type { LedgerEntryInput, LedgerTransactionInput };
 

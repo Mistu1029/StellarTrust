@@ -1,5 +1,5 @@
 #![no_std]
-//! StellarTrust RWA tokenization contract (Phase 5).
+//! T-rex-Star RWA tokenization contract (Phase 5).
 //!
 //! Opt-in module (NOT part of the escrow happy path — Rules.md §3). An issuer
 //! tokenizes a real-world asset into a fixed supply of fractional units;

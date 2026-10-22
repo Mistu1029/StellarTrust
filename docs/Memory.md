@@ -1,4 +1,4 @@
-# StellarTrust — Project Memory
+# T-rex-Star — Project Memory
 
 > **Purpose:** Living state file for the whole project. **Read this first** at the
 > start of any session, and **update it after any change.** It captures current
@@ -14,7 +14,7 @@
 
 ## 1. Project Snapshot
 
-- **Name:** StellarTrust
+- **Name:** T-rex-Star
 - **What:** AI-powered cross-border escrow, liquidity settlement, and RWA
   tokenization platform on Stellar.
 - **Track:** Production (real product for real users).

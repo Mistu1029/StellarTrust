@@ -15,7 +15,7 @@
 import {
   AVATAR_MAX_BYTES,
   AVATAR_MIME_TYPES,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ExternalServiceError, ValidationError } from "../../lib/errors.js";
 import { getSupabaseAdmin, isSupabaseConfigured } from "./supabase.client.js";
 

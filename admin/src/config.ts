@@ -201,7 +201,7 @@ export const config = Object.freeze({
   ...parsed.data,
   isProduction: parsed.data.NODE_ENV === "production",
   isTest: parsed.data.NODE_ENV === "test",
-  serviceName: "stellartrust-admin",
+  serviceName: "t-rex-star-admin",
 });
 
 export type AdminConfig = typeof config;

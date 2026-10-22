@@ -140,7 +140,7 @@ describe("nothing reaches the console without a password", () => {
     // hand-written cookie would be as good as a password.
     await request(app)
       .get("/api/overview")
-      .set("Cookie", "stellartrust_admin=eyJleHAiOjk5OTk5OTk5OTk5OTl9.deadbeef")
+      .set("Cookie", "t-rex-star_admin=eyJleHAiOjk5OTk5OTk5OTk5OTl9.deadbeef")
       .expect(401);
   });
 
@@ -167,7 +167,7 @@ describe("nothing reaches the console without a password", () => {
     // this system is.
     const res = await request(app).get("/login").expect(200);
     expect(res.text).toContain("Sign in");
-    expect(res.text).not.toMatch(/StellarTrust/i);
+    expect(res.text).not.toMatch(/T-rex-Star/i);
   });
 });
 

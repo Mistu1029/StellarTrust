@@ -1,8 +1,8 @@
 {
-  "name": "@stellartrust/backend",
+  "name": "@t-rex-star/backend",
   "version": "0.0.0",
   "private": true,
-  "description": "StellarTrust API \u2014 modular monolith (Express + TypeScript). Bounded contexts per portion.",
+  "description": "T-rex-Star API \u2014 modular monolith (Express + TypeScript). Bounded contexts per portion.",
   "type": "module",
   "main": "dist/index.js",
   "engines": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@stellar/stellar-sdk": "16.0.1",
-    "@stellartrust/shared": "file:../shared",
+    "@t-rex-star/shared": "file:../shared",
     "@supabase/supabase-js": "2.110.7",
     "dotenv": "17.4.2",
     "express": "5.2.1",

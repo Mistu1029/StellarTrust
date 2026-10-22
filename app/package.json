@@ -1,8 +1,8 @@
 {
-  "name": "@stellartrust/app",
+  "name": "@t-rex-star/app",
   "version": "0.0.0",
   "private": true,
-  "description": "StellarTrust mobile app — Expo + React Native + TypeScript. Same design system and same contracts of record as the web frontend; SEP-10 wallet auth signed on-device.",
+  "description": "T-rex-Star mobile app — Expo + React Native + TypeScript. Same design system and same contracts of record as the web frontend; SEP-10 wallet auth signed on-device.",
   "main": "index.js",
   "scripts": {
     "build:shared": "npm install --prefix ../shared --include=dev --no-audit --no-fund && npm run build --prefix ../shared",
@@ -32,7 +32,7 @@
     "@react-navigation/native-stack": "7.2.0",
     "@shopify/flash-list": "2.0.2",
     "@stellar/stellar-sdk": "16.0.1",
-    "@stellartrust/shared": "file:../shared",
+    "@t-rex-star/shared": "file:../shared",
     "@tanstack/react-query": "5.62.7",
     "@walletconnect/sign-client": "^2.17.2",
     "babel-preset-expo": "~57.0.0",
@@ -86,10 +86,10 @@
       "<rootDir>/jest.setup.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|@stellartrust/.*))"
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|@t-rex-star/.*))"
     ],
     "moduleNameMapper": {
-      "^@stellartrust/shared$": "<rootDir>/../shared/src/index.ts",
+      "^@t-rex-star/shared$": "<rootDir>/../shared/src/index.ts",
       "^@babel/runtime/(.*)$": "<rootDir>/node_modules/@babel/runtime/$1",
       "^(.{1,2}/.*).js$": "$1",
       "^@/(.*)$": "<rootDir>/src/$1"

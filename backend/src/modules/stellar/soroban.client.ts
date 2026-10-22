@@ -15,7 +15,7 @@
  * escrow lock) needs client-side signing and is out of scope for this adapter.
  */
 import { contract, rpc, StrKey, TransactionBuilder } from "@stellar/stellar-sdk";
-import { ChainTxStatus } from "@stellartrust/shared";
+import { ChainTxStatus } from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { ChainError } from "../../lib/errors.js";
 import { networkPassphrase } from "./stellar.client.js";

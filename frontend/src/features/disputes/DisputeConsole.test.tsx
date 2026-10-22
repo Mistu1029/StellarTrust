@@ -11,7 +11,7 @@
 import { describe, expect, it, vi, beforeEach } from "vitest";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import type { AuthSessionResponse } from "@stellartrust/shared";
+import type { AuthSessionResponse } from "@t-rex-star/shared";
 
 vi.mock("@/lib/api", () => ({
   ApiClientError: class ApiClientError extends Error {},

@@ -93,7 +93,7 @@ async function readContractValue(
 }
 
 async function main(): Promise<void> {
-  console.log("StellarTrust on-chain escrow preflight\n");
+  console.log("T-rex-Star on-chain escrow preflight\n");
 
   // Imported dynamically so an invalid environment is reported as a readable
   // failure rather than an unhandled module-load throw.

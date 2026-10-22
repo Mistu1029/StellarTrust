@@ -1,4 +1,4 @@
-# StellarTrust — Architecture
+# T-rex-Star — Architecture
 
 > **Status:** Living document. Update on any structural, stack, or data-model change.
 > **Last updated:** 2026-09-03
@@ -163,7 +163,7 @@ communicate only over defined interfaces (REST APIs, shared type contracts) —
 never by reaching into each other's internals.
 
 ```
-stellartrust/
+t-rex-star/
 ├─ docs/                      # PRD, Architecture, Rules, Phases, DESIGN, Memory,
 │                             #   devlopement (development log / issue register)
 │

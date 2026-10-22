@@ -8,7 +8,7 @@ import {
   type PaymentTransitionDTO,
   type ReconciliationMismatchDTO,
   type StellarTxRecord,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 import { assertBalanced } from "../ledger/ledger.balance.js";
 import type { ChainReceipt } from "../escrow/escrow.gateway.js";

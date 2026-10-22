@@ -1,9 +1,9 @@
-# StellarTrust — Engineering Rules & Guardrails
+# T-rex-Star — Engineering Rules & Guardrails
 
 > **Status:** Living document. All contributors (human and AI) must follow this.
 > **Last updated:** 2026-09-03
 
-These rules exist because StellarTrust moves real money for real users. When in
+These rules exist because T-rex-Star moves real money for real users. When in
 doubt, choose the safer, more auditable, more reversible option.
 
 ---

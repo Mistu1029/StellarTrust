@@ -1,4 +1,4 @@
--- StellarTrust — Phase 4 addendum: dispute parties (both sides of the claim)
+-- T-rex-Star — Phase 4 addendum: dispute parties (both sides of the claim)
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

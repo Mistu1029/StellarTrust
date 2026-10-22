@@ -18,7 +18,7 @@ import {
   FEEDBACK_RATING_MAX,
   FEEDBACK_RATING_MIN,
   feedbackInputSchema,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ConflictError, ValidationError } from "../../lib/errors.js";
 import type { AuditRepository } from "../audit/audit.repository.js";
 import {

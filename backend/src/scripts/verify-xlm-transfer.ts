@@ -102,7 +102,7 @@ async function fundFromFriendbot(address: string): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  console.log("StellarTrust — live XLM transfer verification\n");
+  console.log("T-rex-Star — live XLM transfer verification\n");
 
   // ── Refuse the public network before doing anything at all ───────────────
   //

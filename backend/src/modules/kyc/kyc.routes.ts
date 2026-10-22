@@ -11,7 +11,7 @@ import {
   kycApplicationInputSchema,
   kycCaptureUploadInputSchema,
   kycReviewDecisionInputSchema,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import {
   AuthError,

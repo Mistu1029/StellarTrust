@@ -5,7 +5,7 @@
  * is asking. Falls back to the role when the public ref is absent, so a row
  * never renders a bare id at a user.
  */
-import type { OrderDetailsResponse } from "@stellartrust/shared";
+import type { OrderDetailsResponse } from "@t-rex-star/shared";
 
 export function counterpartyOf(
   entry: OrderDetailsResponse,

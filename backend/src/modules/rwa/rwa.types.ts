@@ -15,7 +15,7 @@ export {
   AssetVerificationStatus,
   TokenizationStatus,
   PayoutStatus,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 export type {
   AssetDTO,
@@ -37,7 +37,7 @@ export type {
   PurchaseUnitsInput,
   TokenizationDetailsResponse,
   InvestorPortfolioResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 /** Backend-internal: a computed pro-rata payout share for one holder. */
 export interface PayoutCalculation {

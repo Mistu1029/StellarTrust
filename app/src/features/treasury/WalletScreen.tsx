@@ -4,7 +4,7 @@
  * Two distinct balances live here and conflating them would mislead:
  *
  *  - The **platform balance** is what the ledger says the user can spend
- *    inside StellarTrust — the number escrow and settlement draw on.
+ *    inside T-rex-Star — the number escrow and settlement draw on.
  *  - The **on-chain balance** is what their Stellar account holds. Money there
  *    is theirs but is not yet usable here; it becomes spendable by depositing.
  *

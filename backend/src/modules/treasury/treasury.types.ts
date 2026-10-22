@@ -20,7 +20,7 @@
  * withdrawal `pending` until reconciliation resolves it, which is the correct
  * trade.
  */
-import type { CurrencyCode } from "@stellartrust/shared";
+import type { CurrencyCode } from "@t-rex-star/shared";
 
 /** Where a movement of value sits in its lifecycle. */
 export const TreasuryStatus = {

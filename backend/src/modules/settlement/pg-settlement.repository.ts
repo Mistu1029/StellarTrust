@@ -33,7 +33,7 @@ import {
   type SettlementReconciliationMismatchDTO,
   type SettlementTransitionDTO,
   type StellarTxRecord,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { ConflictError } from "../../lib/errors.js";
 import { assertBalanced } from "../ledger/ledger.balance.js";
 import { systemAccountName } from "../ledger/system-accounts.js";

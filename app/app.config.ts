@@ -13,11 +13,11 @@ const API_BASE_URL =
 const STELLAR_NETWORK = process.env.EXPO_PUBLIC_STELLAR_NETWORK ?? "testnet";
 
 const config: ExpoConfig = {
-  name: "StellarTrust",
-  slug: "stellartrust",
+  name: "T-rex-Star",
+  slug: "t-rex-star",
   version: "1.0.0",
   orientation: "portrait",
-  scheme: "stellartrust",
+  scheme: "t-rex-star",
   userInterfaceStyle: "dark",
   backgroundColor: "#0b0e11",
   primaryColor: "#fcd535",
@@ -25,20 +25,22 @@ const config: ExpoConfig = {
   assetBundlePatterns: ["**/*"],
   ios: {
     supportsTablet: true,
-    bundleIdentifier: "com.stellartrust.app",
+    bundleIdentifier: "com.t-rex-star.app",
     buildNumber: "1",
     config: { usesNonExemptEncryption: false },
     infoPlist: {
       NSCameraUsageDescription:
-        "StellarTrust uses the camera to capture your identity document and a liveness selfie for identity verification.",
+        "T-rex-Star uses the camera to capture your identity document and a liveness selfie for identity verification.",
       NSPhotoLibraryUsageDescription:
-        "StellarTrust needs photo access so you can attach evidence to a dispute or upload a profile photo.",
+        "T-rex-Star needs photo access so you can attach evidence to a dispute or upload a profile photo.",
       NSFaceIDUsageDescription:
-        "StellarTrust uses Face ID to unlock the wallet key that signs your transactions.",
+        "T-rex-Star uses Face ID to unlock the wallet key that signs your transactions.",
     },
   },
   android: {
-    package: "com.stellartrust.app",
+    // Android application IDs cannot contain hyphens; this is the valid
+    // platform identifier for the T-rex-Star app name.
+    package: "com.trexstar.app",
     versionCode: 1,
     adaptiveIcon: {
       foregroundImage: "./assets/adaptive-icon.png",
@@ -70,14 +72,14 @@ const config: ExpoConfig = {
       "expo-camera",
       {
         cameraPermission:
-          "StellarTrust uses the camera to verify your identity document and liveness.",
+          "T-rex-Star uses the camera to verify your identity document and liveness.",
       },
     ],
     [
       "expo-image-picker",
       {
         photosPermission:
-          "StellarTrust needs photo access to attach dispute evidence.",
+          "T-rex-Star needs photo access to attach dispute evidence.",
       },
     ],
     [

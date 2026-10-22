@@ -1,4 +1,4 @@
-# StellarTrust — Delivery Phases
+# T-rex-Star — Delivery Phases
 
 > **Status:** Living document. Update as phases progress or scope changes.
 > **Last updated:** 2026-09-03

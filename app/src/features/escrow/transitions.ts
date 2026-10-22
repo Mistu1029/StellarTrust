@@ -5,7 +5,7 @@
  * never offered a button that will be refused. Anything not listed for a
  * status is genuinely unavailable at that point, not merely hidden.
  */
-import { OrderStatus, PaymentTransition } from "@stellartrust/shared";
+import { OrderStatus, PaymentTransition } from "@t-rex-star/shared";
 
 export type Party = "buyer" | "seller";
 

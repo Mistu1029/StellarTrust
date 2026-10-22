@@ -1,6 +1,6 @@
 "use client";
 
-import { ReviewStatus, type KycReviewItem } from "@stellartrust/shared";
+import { ReviewStatus, type KycReviewItem } from "@t-rex-star/shared";
 import { type FormEvent, useState } from "react";
 import { Icon } from "@/components/Icon";
 import { api } from "@/lib/api";

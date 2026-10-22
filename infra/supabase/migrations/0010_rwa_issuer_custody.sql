@@ -1,4 +1,4 @@
--- StellarTrust — RWA issuer self-custody
+-- T-rex-Star — RWA issuer self-custody
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

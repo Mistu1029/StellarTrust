@@ -4,7 +4,7 @@
  * An off-by-a-power-of-ten here locks or releases the wrong amount of real
  * value, and nothing downstream would notice: both numbers are valid integers.
  */
-import { CurrencyCode } from "@stellartrust/shared";
+import { CurrencyCode } from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import {
   fromTokenAmount,

@@ -10,7 +10,7 @@ const BUYER_WALLET = 'GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1';
 const SELLER_WALLET = 'GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2';
 
 async function testOrderFlow() {
-  console.log('=== StellarTrust Order Creation Test ===\n');
+  console.log('=== T-rex-Star Order Creation Test ===\n');
 
   try {
     // Step 1: Check health

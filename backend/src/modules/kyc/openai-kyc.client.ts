@@ -16,7 +16,7 @@
  * the KYC service via the resulting advisory.
  */
 import { z } from "zod";
-import { KycDecision, type KycRiskAdvisory } from "@stellartrust/shared";
+import { KycDecision, type KycRiskAdvisory } from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { ExternalServiceError } from "../../lib/errors.js";
 import { logger } from "../../lib/logger.js";

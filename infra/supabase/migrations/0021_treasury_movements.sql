@@ -1,4 +1,4 @@
--- StellarTrust — treasury movements: how a ledger balance comes to exist
+-- T-rex-Star — treasury movements: how a ledger balance comes to exist
 -- (plane.md §4.5). Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Why this exists

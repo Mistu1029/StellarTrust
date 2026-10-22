@@ -1,4 +1,4 @@
-# StellarTrust Soroban Contracts
+# T-rex-Star Soroban Contracts
 
 Trustless on-chain logic (Rust → WASM):
 
@@ -122,7 +122,7 @@ funded Stellar CLI identity.
 .\contracts\scripts\setup-testnet.ps1
 
 # build + install both WASMs, printing their hashes
-.\contracts\scripts\deploy-testnet.ps1 -Source stellartrust-arbiter
+.\contracts\scripts\deploy-testnet.ps1 -Source t-rex-star-arbiter
 ```
 
 Copy the printed hashes into `ESCROW_WASM_HASH` and `RWA_WASM_HASH` in the

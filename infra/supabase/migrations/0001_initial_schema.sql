@@ -1,4 +1,4 @@
--- StellarTrust — initial schema (Phase 0)
+-- T-rex-Star — initial schema (Phase 0)
 -- Postgres / Supabase. Forward-only migration (Rules.md §2).
 --
 -- Golden Rule #1: the double-entry ledger is the system of record. Every money
@@ -12,7 +12,7 @@ begin;
 create extension if not exists "pgcrypto";  -- gen_random_uuid()
 
 -- ─────────────────────────────────────────────────────────────────────────────
--- Enums (mirror @stellartrust/shared constants)
+-- Enums (mirror @t-rex-star/shared constants)
 -- ─────────────────────────────────────────────────────────────────────────────
 create type kyc_status       as enum ('pending', 'under_review', 'verified', 'rejected');
 create type kyc_decision      as enum ('approve', 'review', 'reject');

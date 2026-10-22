@@ -2,7 +2,7 @@
 import type {
   KycApplicationInput,
   KycProviderChecks,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 export interface RiskSignal {
   name: string;

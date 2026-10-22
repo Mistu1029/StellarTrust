@@ -3,7 +3,7 @@
  * The shared package holds the *codes* and *wire shape*; these classes are the
  * runtime carriers used inside the backend.
  */
-import { ERROR_HTTP_STATUS, ErrorCode } from "@stellartrust/shared";
+import { ERROR_HTTP_STATUS, ErrorCode } from "@t-rex-star/shared";
 
 export interface ErrorDetail {
   path: string;

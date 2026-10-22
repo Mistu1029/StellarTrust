@@ -110,7 +110,7 @@ export function ImportWalletScreen({ onCancel }: { onCancel: () => void }) {
           Only type this on a device you trust
         </Text>
         <Text variant="bodySm" tone={color.mutedStrong} style={styles.blurb}>
-          Anyone with this key can move your funds. StellarTrust will never ask
+          Anyone with this key can move your funds. T-rex-Star will never ask
           for it by email, chat, or phone.
         </Text>
       </Card>

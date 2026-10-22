@@ -7,7 +7,7 @@
  * surface that hides its risk signals until the detail screen is one that
  * sells the good ones and buries the bad.
  */
-import { TokenizationStatus } from "@stellartrust/shared";
+import { TokenizationStatus } from "@t-rex-star/shared";
 import { FlashList } from "@shopify/flash-list";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useMemo, useState } from "react";

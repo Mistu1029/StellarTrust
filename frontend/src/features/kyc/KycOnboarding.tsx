@@ -1,6 +1,6 @@
 "use client";
 
-import { ApplicantType, KycStatus, type KycApplicationResponse } from "@stellartrust/shared";
+import { ApplicantType, KycStatus, type KycApplicationResponse } from "@t-rex-star/shared";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { type FormEvent, useEffect, useState } from "react";
@@ -100,7 +100,7 @@ export function KycOnboarding() {
   if (identityLoading || isVerified) return <LoadingState />;
 
   if (!session) {
-    return <section className="panel-light overflow-hidden"><div className="grid lg:grid-cols-[1fr_.8fr]"><div className="p-lg sm:p-xl md:p-xxl"><span className="grid h-12 w-12 place-items-center rounded-lg bg-primary/20 text-primary-active"><Icon name="wallet" className="h-6 w-6" /></span><p className="eyebrow mt-lg">Step 1 of 2</p><h2 className="mt-xs text-2xl font-bold">Connect your Stellar wallet</h2><p className="mt-sm max-w-xl leading-7 text-muted">Your wallet proves account ownership through a signed SEP-10 challenge. StellarTrust never receives or stores your private key.</p><Link href="/" className="btn-primary mt-lg">Connect from overview <Icon name="arrow-right" className="h-4 w-4" /></Link></div><div className="border-t border-hairline-light bg-surface-strong-light p-xl lg:border-l lg:border-t-0"><p className="text-sm font-semibold">What you will need</p><ul className="mt-md space-y-md text-sm text-muted"><li className="flex gap-sm"><Icon name="check" className="h-5 w-5 shrink-0 text-status-verified" />A supported Stellar testnet wallet</li><li className="flex gap-sm"><Icon name="check" className="h-5 w-5 shrink-0 text-status-verified" />Identity or business information</li><li className="flex gap-sm"><Icon name="check" className="h-5 w-5 shrink-0 text-status-verified" />A valid passport or identity document</li></ul></div></div></section>;
+    return <section className="panel-light overflow-hidden"><div className="grid lg:grid-cols-[1fr_.8fr]"><div className="p-lg sm:p-xl md:p-xxl"><span className="grid h-12 w-12 place-items-center rounded-lg bg-primary/20 text-primary-active"><Icon name="wallet" className="h-6 w-6" /></span><p className="eyebrow mt-lg">Step 1 of 2</p><h2 className="mt-xs text-2xl font-bold">Connect your Stellar wallet</h2><p className="mt-sm max-w-xl leading-7 text-muted">Your wallet proves account ownership through a signed SEP-10 challenge. T-rex-Star never receives or stores your private key.</p><Link href="/" className="btn-primary mt-lg">Connect from overview <Icon name="arrow-right" className="h-4 w-4" /></Link></div><div className="border-t border-hairline-light bg-surface-strong-light p-xl lg:border-l lg:border-t-0"><p className="text-sm font-semibold">What you will need</p><ul className="mt-md space-y-md text-sm text-muted"><li className="flex gap-sm"><Icon name="check" className="h-5 w-5 shrink-0 text-status-verified" />A supported Stellar testnet wallet</li><li className="flex gap-sm"><Icon name="check" className="h-5 w-5 shrink-0 text-status-verified" />Identity or business information</li><li className="flex gap-sm"><Icon name="check" className="h-5 w-5 shrink-0 text-status-verified" />A valid passport or identity document</li></ul></div></div></section>;
   }
 
   return <div className="grid items-start gap-lg lg:grid-cols-[minmax(0,1fr)_340px]">

@@ -28,7 +28,7 @@ import {
   ProviderCheckStatus,
   type KycApplicationInput,
   type KycProviderChecks,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../../config/index.js";
 import { ExternalServiceError } from "../../../lib/errors.js";
 import { logger } from "../../../lib/logger.js";

@@ -1,4 +1,4 @@
--- StellarTrust — RWA asset verification + investor protection
+-- T-rex-Star — RWA asset verification + investor protection
 -- (plane.md §3.1 and §3.2)
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --

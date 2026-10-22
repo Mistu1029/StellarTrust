@@ -22,7 +22,7 @@ import type {
   PositionLink,
   PositionsResponse,
   SettlementDetailsResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 /** The four domain reads a position view needs. Narrow ports, not services. */
 export interface PositionSources {

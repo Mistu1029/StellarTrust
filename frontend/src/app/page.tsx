@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-[1280px] px-md py-xxl sm:px-lg sm:py-section">
-        <div className="grid divide-y divide-hairline-dark border-y border-hairline-dark sm:grid-cols-3 sm:divide-y-0">{[["6", "State-linked settlement steps"], ["100%", "Balanced ledger transitions"], ["0", "Secret keys stored by StellarTrust"]].map(([value, label], index) => <div key={label} className={`py-lg sm:px-lg ${index ? "sm:border-l sm:border-hairline-dark" : ""}`}><p className="font-mono text-3xl font-semibold text-primary">{value}</p><p className="mt-xs text-sm text-muted">{label}</p></div>)}</div>
+        <div className="grid divide-y divide-hairline-dark border-y border-hairline-dark sm:grid-cols-3 sm:divide-y-0">{[["6", "State-linked settlement steps"], ["100%", "Balanced ledger transitions"], ["0", "Secret keys stored by T-rex-Star"]].map(([value, label], index) => <div key={label} className={`py-lg sm:px-lg ${index ? "sm:border-l sm:border-hairline-dark" : ""}`}><p className="font-mono text-3xl font-semibold text-primary">{value}</p><p className="mt-xs text-sm text-muted">{label}</p></div>)}</div>
       </section>
 
       <section className="mx-auto max-w-[1280px] px-md pb-xxl sm:px-lg sm:pb-section">

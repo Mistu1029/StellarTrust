@@ -7,7 +7,7 @@
  * double, whose whole purpose is to make the refusal not fire.
  */
 import { describe, expect, it } from "vitest";
-import { EntryDirection, type CurrencyCode } from "@stellartrust/shared";
+import { EntryDirection, type CurrencyCode } from "@t-rex-star/shared";
 import {
   InsufficientFundsError,
   LedgerService,

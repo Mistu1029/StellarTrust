@@ -14,7 +14,7 @@ import {
   ProviderCheckStatus,
   type KycApplicationInput,
   type KycProviderChecks,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import type {
   KycProvider,
   KycProviderResult,

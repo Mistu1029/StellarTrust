@@ -8,7 +8,7 @@
  * credit.
  */
 import { Router } from "express";
-import { SUPPORTED_CURRENCIES, type CurrencyCode } from "@stellartrust/shared";
+import { SUPPORTED_CURRENCIES, type CurrencyCode } from "@t-rex-star/shared";
 import { ValidationError } from "../../lib/errors.js";
 import {
   type AuthedRequest,

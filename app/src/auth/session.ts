@@ -8,13 +8,13 @@
  * protection as the wallet key — and is treated as expired the moment its own
  * `expiresAt` passes, which the server enforces regardless.
  */
-import type { AuthSessionResponse } from "@stellartrust/shared";
+import type { AuthSessionResponse } from "@t-rex-star/shared";
 import * as SecureStore from "expo-secure-store";
 import { api } from "../api/client";
 import { signTransaction } from "./signer";
 import { setWalletKind, type WalletKind } from "./signer";
 
-const SESSION_KEY = "stellartrust.session";
+const SESSION_KEY = "t-rex-star.session";
 
 /**
  * Refresh margin.
@@ -73,7 +73,7 @@ export async function signInWithWallet(
     challenge.transactionXdr,
     challenge.networkPassphrase,
     {
-      reason: "Sign in to StellarTrust",
+      reason: "Sign in to T-rex-Star",
       expectedAddress: address,
     },
   );

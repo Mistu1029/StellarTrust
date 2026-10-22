@@ -1,6 +1,6 @@
-# StellarTrust — Industry-Grade Platform Plan
+# T-rex-Star — Industry-Grade Platform Plan
 
-> **Purpose:** Turn StellarTrust from a feature demo into a platform that solves a
+> **Purpose:** Turn T-rex-Star from a feature demo into a platform that solves a
 > real problem end to end. This file is the working checklist. Mark a box `[x]`
 > only when the task is implemented **and** covered by a test that runs in CI.
 >

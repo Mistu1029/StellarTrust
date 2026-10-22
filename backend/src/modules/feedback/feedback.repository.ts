@@ -7,7 +7,7 @@
  * wallet address could occupy. Keeping the widening impossible at the type
  * level is cheaper than remembering to strip fields in five route handlers.
  */
-import type { FeedbackDTO } from "@stellartrust/shared";
+import type { FeedbackDTO } from "@t-rex-star/shared";
 
 /** A stored submission — published columns plus the contact PII. */
 export interface FeedbackRecord {

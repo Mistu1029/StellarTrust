@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 /**
- * Design tokens from DESIGN.md (StellarTrust design system).
+ * Design tokens from DESIGN.md (T-rex-Star design system).
  * Single accent (Signal Yellow), Inter for UI, IBM Plex Mono for money/IDs.
  */
 const config: Config = {

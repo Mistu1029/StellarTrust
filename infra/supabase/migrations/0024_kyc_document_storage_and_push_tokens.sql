@@ -1,4 +1,4 @@
--- StellarTrust — mobile push tokens.
+-- T-rex-Star — mobile push tokens.
 --
 -- Identity documents
 -- ──────────────────

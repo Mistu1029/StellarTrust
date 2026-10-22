@@ -169,7 +169,7 @@ function fail(message: string): never {
 }
 
 async function main(): Promise<void> {
-  console.log("StellarTrust — database readiness\n");
+  console.log("T-rex-Star — database readiness\n");
 
   if (!config.DATABASE_URL) {
     fail(

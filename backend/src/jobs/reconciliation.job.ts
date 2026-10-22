@@ -8,7 +8,7 @@ import {
   type PaymentTransitionDTO,
   type ReconciliationMismatchDTO,
   type ReconciliationReportDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { logger } from "../lib/logger.js";
 import type { AlertSink } from "../lib/alerts.js";
 import type { MetricsRegistry } from "../lib/metrics.js";

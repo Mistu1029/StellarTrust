@@ -10,7 +10,7 @@ import type {
   DisputeResolution,
   EscrowDTO,
   OrderDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 /**
  * Narrow port into the payments bounded context so disputes can validate the

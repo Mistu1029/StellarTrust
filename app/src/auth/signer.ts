@@ -19,7 +19,7 @@ import {
 
 export type WalletKind = "device" | "external";
 
-const KIND_KEY = "stellartrust.wallet.kind";
+const KIND_KEY = "t-rex-star.wallet.kind";
 
 export async function getWalletKind(): Promise<WalletKind | null> {
   const stored = await SecureStore.getItemAsync(KIND_KEY);

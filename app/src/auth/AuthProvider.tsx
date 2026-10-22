@@ -12,8 +12,8 @@
 import type {
   AuthSessionResponse,
   IdentityProfileResponse,
-} from "@stellartrust/shared";
-import { KycStatus } from "@stellartrust/shared";
+} from "@t-rex-star/shared";
+import { KycStatus } from "@t-rex-star/shared";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import {
   createContext,

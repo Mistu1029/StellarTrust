@@ -1,5 +1,5 @@
 /**
- * StellarTrust design tokens for React Native.
+ * T-rex-Star design tokens for React Native.
  *
  * Transcribed token-for-token from docs/DESIGN.md and
  * frontend/tailwind.config.ts so the app and the web app are the same product

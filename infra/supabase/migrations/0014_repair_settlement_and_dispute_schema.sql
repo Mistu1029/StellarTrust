@@ -1,4 +1,4 @@
--- StellarTrust — repair: re-apply the settlement (0011) and dispute-party
+-- T-rex-Star — repair: re-apply the settlement (0011) and dispute-party
 -- (0012) schema on a database where those two migrations never ran.
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --

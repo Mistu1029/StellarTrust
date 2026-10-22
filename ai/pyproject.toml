@@ -1,7 +1,7 @@
 [project]
-name = "stellartrust-ai"
+name = "t-rex-star-ai"
 version = "0.0.0"
-description = "StellarTrust AI Risk Service — advisory-only KYC risk aggregation and dispute recommendations. Read-only w.r.t. funds and the ledger (Rules.md §6)."
+description = "T-rex-Star AI Risk Service — advisory-only KYC risk aggregation and dispute recommendations. Read-only w.r.t. funds and the ledger (Rules.md §6)."
 requires-python = ">=3.11"
 dependencies = [
     "fastapi==0.115.6",

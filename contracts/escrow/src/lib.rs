@@ -1,5 +1,5 @@
 #![no_std]
-//! StellarTrust escrow contract (Phase 0 skeleton).
+//! T-rex-Star escrow contract (Phase 0 skeleton).
 //!
 //! Trustless custody for the buyer→seller happy path: funds are locked, then
 //! either released to the seller or refunded to the buyer, authorized by a
@@ -7,7 +7,7 @@
 //!
 //! The double-entry ledger in Postgres remains the system of record; this
 //! contract is the on-chain custody mechanism that reconciliation asserts
-//! against. State transitions here mirror `EscrowState` in @stellartrust/shared:
+//! against. State transitions here mirror `EscrowState` in @t-rex-star/shared:
 //! Locked -> Released | Refunded | Disputed.
 
 use soroban_sdk::{

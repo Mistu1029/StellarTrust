@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { WalletBalancesResponse } from "@stellartrust/shared";
+import type { WalletBalancesResponse } from "@t-rex-star/shared";
 import { api, ApiClientError, ApiUnreachableError } from "@/lib/api";
 
 /**

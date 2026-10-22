@@ -4,7 +4,7 @@
  * bootstrap so tests can import the app without opening a port.
  */
 import type { IncomingMessage } from "node:http";
-import type { HealthResponse } from "@stellartrust/shared";
+import type { HealthResponse } from "@t-rex-star/shared";
 import express, { type Express, type RequestHandler } from "express";
 import { rateLimit } from "express-rate-limit";
 import helmetImport from "helmet";

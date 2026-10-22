@@ -1,6 +1,6 @@
 <div align="center">
 
-# StellarTrust
+# T-rex-Star
 
 ### Fast. Secure. Auditable. Cross-border escrow and settlement on Stellar.
 
@@ -8,7 +8,7 @@
 
 <br/>
 
-[![CI](https://github.com/Soumen1080/StellarTrust/actions/workflows/ci.yml/badge.svg)](https://github.com/Soumen1080/StellarTrust/actions/workflows/ci.yml)
+[![CI](https://github.com/Soumen1080/T-rex-Star/actions/workflows/ci.yml/badge.svg)](https://github.com/Soumen1080/T-rex-Star/actions/workflows/ci.yml)
 ![Tests](https://img.shields.io/badge/tests-292%20passing-22c55e?style=flat-square)
 ![Network](https://img.shields.io/badge/Stellar-Testnet-08B5E5?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
@@ -26,7 +26,7 @@
 
 <br/>
 
-<img src="docs/screenshots/landing.png" alt="StellarTrust — global commerce, without the trust gap" width="100%" />
+<img src="docs/screenshots/landing.png" alt="T-rex-Star — global commerce, without the trust gap" width="100%" />
 
 </div>
 
@@ -37,13 +37,13 @@
 | | |
 |---|---|
 | 🌐 **Live App** | **[stellar-trust-frontend.vercel.app](https://stellar-trust-frontend.vercel.app)** |
-| 🔌 **API** | [https://stellartrust.onrender.com](https://stellartrust.onrender.com) |
-| 💚 **API Health** | [https://stellartrust.onrender.com/health](https://stellartrust.onrender.com/health) |
-| 📊 **Metrics** | [https://stellartrust.onrender.com/metrics](https://stellartrust.onrender.com/metrics) |
+| 🔌 **API** | [https://t-rex-star.onrender.com](https://t-rex-star.onrender.com) |
+| 💚 **API Health** | [https://t-rex-star.onrender.com/health](https://t-rex-star.onrender.com/health) |
+| 📊 **Metrics** | [https://t-rex-star.onrender.com/metrics](https://t-rex-star.onrender.com/metrics) |
 | 🎥 **Demo Video** | **[youtu.be/oyHqcotE5CA](https://youtu.be/oyHqcotE5CA)** |
 | 📝 **Feedback Form** | [Google Form — share your feedback](https://docs.google.com/forms/d/e/1FAIpQLSdvZuSPkXrDKKCd-VIR3HZUUs-LWYF6eg7E-0_JoVM63wcw5g/viewform) |
-| 📦 **Repository** | [github.com/Soumen1080/StellarTrust](https://github.com/Soumen1080/StellarTrust) |
-| ⚙️ **CI Pipeline** | [GitHub Actions](https://github.com/Soumen1080/StellarTrust/actions) |
+| 📦 **Repository** | [github.com/Soumen1080/T-rex-Star](https://github.com/Soumen1080/T-rex-Star) |
+| ⚙️ **CI Pipeline** | [GitHub Actions](https://github.com/Soumen1080/T-rex-Star/actions) |
 | 🌍 **Network** | Stellar **Testnet** |
 
 ### On-Chain Deployment
@@ -69,7 +69,7 @@
 > artifacts - a fresh escrow instance is deployed per order - so they cannot come from
 > `.env`; copy them from a real testnet run.
 
-> 💡 StellarTrust deploys **one escrow contract instance per order** from an installed WASM hash. That is cheaper than a monolithic contract and gives every order its own isolated custody account. The address above is a real order instance — verify it on [Stellar Expert](https://stellar.expert/explorer/testnet).
+> 💡 T-rex-Star deploys **one escrow contract instance per order** from an installed WASM hash. That is cheaper than a monolithic contract and gives every order its own isolated custody account. The address above is a real order instance — verify it on [Stellar Expert](https://stellar.expert/explorer/testnet).
 
 ---
 
@@ -77,9 +77,9 @@
 
 | # | Requirement | Status | Evidence |
 |---|---|---|---|
-| 1 | Public GitHub repository | ✅ | [Soumen1080/StellarTrust](https://github.com/Soumen1080/StellarTrust) |
+| 1 | Public GitHub repository | ✅ | [Soumen1080/T-rex-Star](https://github.com/Soumen1080/T-rex-Star) |
 | 2 | README with complete documentation | ✅ | This file |
-| 3 | Minimum 15+ meaningful commits | ✅ | **90 commits** — [history](https://github.com/Soumen1080/StellarTrust/commits/main) |
+| 3 | Minimum 15+ meaningful commits | ✅ | **90 commits** — [history](https://github.com/Soumen1080/T-rex-Star/commits/main) |
 | 4 | Live demo link | ✅ | [stellar-trust-frontend.vercel.app](https://stellar-trust-frontend.vercel.app) |
 | 5 | Contract deployment address | ⬜ | [On-Chain Deployment](#on-chain-deployment) |
 | 6 | Transaction hash for contract interaction | ⬜ | [On-Chain Deployment](#on-chain-deployment) |
@@ -101,11 +101,11 @@
 
 ---
 
-## 💡 What Is StellarTrust?
+## 💡 What Is T-rex-Star?
 
 Cross-border commerce has a trust problem. The buyer pays first and hopes. The seller ships first and hopes. When something goes wrong, resolution takes weeks and nobody can prove what happened.
 
-**StellarTrust removes the hoping.** Money goes into a Soroban escrow contract that neither party controls. It is released only when delivery is confirmed — or, if there is a dispute, after an AI-assisted review that a human must approve. Every movement is written to a double-entry ledger that is continuously reconciled against the chain.
+**T-rex-Star removes the hoping.** Money goes into a Soroban escrow contract that neither party controls. It is released only when delivery is confirmed — or, if there is a dispute, after an AI-assisted review that a human must approve. Every movement is written to a double-entry ledger that is continuously reconciled against the chain.
 
 ### Why It Is Different
 
@@ -190,7 +190,7 @@ A background job diffs the ledger against on-chain state and raises alerts when 
 ### 🏠 Account Dashboard
 
 <div align="center">
-<img src="docs/screenshots/dashboard.png" alt="StellarTrust account dashboard" width="92%" />
+<img src="docs/screenshots/dashboard.png" alt="T-rex-Star account dashboard" width="92%" />
 </div>
 
 Verification status, active and protected orders, historical volume, and recent escrow activity in one place. The right rail shows the **SEP-10 authenticated wallet** and confirms **self-custody** on Stellar testnet.
@@ -225,7 +225,7 @@ Invoices and real-world assets tokenized into fractional units on the Soroban `r
 <img src="docs/screenshots/wallet-connect.png" alt="Connect wallet modal with Freighter, Albedo, xBull, Fordefi, Rabet" width="92%" />
 </div>
 
-Non-custodial sign-in through Stellar Wallets Kit — Freighter, Albedo, xBull, Fordefi, and Rabet. Authentication is SEP-10 challenge-response; StellarTrust never holds a user key.
+Non-custodial sign-in through Stellar Wallets Kit — Freighter, Albedo, xBull, Fordefi, and Rabet. Authentication is SEP-10 challenge-response; T-rex-Star never holds a user key.
 
 ### ⏳ Empty & Loading States
 
@@ -271,7 +271,7 @@ Lighthouse on the production Vercel deployment:
 
 Captured from a real local run on 2026-08-27 — **292 tests passing** across four suites.
 Reproduce with the commands in [Testing](#-testing); the same suites run in
-[CI](https://github.com/Soumen1080/StellarTrust/actions/workflows/ci.yml) on every push.
+[CI](https://github.com/Soumen1080/T-rex-Star/actions/workflows/ci.yml) on every push.
 
 <details open>
 <summary><strong>Backend — <code>cd backend &amp;&amp; npm test</code> → 257 passing / 26 files</strong></summary>
@@ -383,14 +383,14 @@ test result: ok. 18 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fin
 
 Monitoring is **built into the service**, not bolted on — so the evidence below is a live
 capture, not a dashboard screenshot. Fetch it yourself:
-[`/metrics`](https://stellartrust.onrender.com/metrics) ·
-[`/health/ready`](https://stellartrust.onrender.com/health/ready)
+[`/metrics`](https://t-rex-star.onrender.com/metrics) ·
+[`/health/ready`](https://t-rex-star.onrender.com/health/ready)
 
 ```console
-$ curl -s https://stellartrust.onrender.com/health
-{"status":"ok","service":"stellartrust-backend","version":"0.0.0","time":"2026-08-26T22:43:52.907Z"}
+$ curl -s https://t-rex-star.onrender.com/health
+{"status":"ok","service":"t-rex-star-backend","version":"0.0.0","time":"2026-08-26T22:43:52.907Z"}
 
-$ curl -s https://stellartrust.onrender.com/health/ready
+$ curl -s https://t-rex-star.onrender.com/health/ready
 {"status":"degraded","checks":{"database":true,"ledgerUnresolvedMismatches":0,
  "settlementUnresolvedMismatches":4,"rwaUnresolvedMismatches":0},"time":"2026-08-26T22:45:01.283Z"}
 ```
@@ -452,7 +452,7 @@ RWA reconciliation are clean (`0` mismatches across 41 runs).
 ### ▶️ **[Watch the 2-minute walkthrough](https://youtu.be/oyHqcotE5CA)**
 
 <a href="https://youtu.be/oyHqcotE5CA">
-<img src="https://img.youtube.com/vi/oyHqcotE5CA/maxresdefault.jpg" alt="StellarTrust demo video" width="70%" />
+<img src="https://img.youtube.com/vi/oyHqcotE5CA/maxresdefault.jpg" alt="T-rex-Star demo video" width="70%" />
 </a>
 
 </div>
@@ -463,7 +463,7 @@ RWA reconciliation are clean (`0` mismatches across 41 runs).
 
 ## 🏗 Architecture
 
-StellarTrust runs as separated runtimes that talk through typed contracts. Financial state stays auditable, and the AI service stays strictly advisory.
+T-rex-Star runs as separated runtimes that talk through typed contracts. Financial state stays auditable, and the AI service stays strictly advisory.
 
 ```mermaid
 flowchart TB
@@ -611,7 +611,7 @@ The escrow contract moves value by calling into the **SEP-41 token interface** (
 ./contracts/scripts/setup-testnet.ps1
 
 # 2. Build + install both contract WASMs, printing their hashes
-./contracts/scripts/deploy-testnet.ps1 -Source stellartrust-arbiter
+./contracts/scripts/deploy-testnet.ps1 -Source t-rex-star-arbiter
 
 # 3. Copy ESCROW_WASM_HASH and RWA_WASM_HASH into backend/.env
 
@@ -625,7 +625,7 @@ cd backend && npm run chain:preflight
 
 ## 🔌 API Surface
 
-Base URL: `https://stellartrust.onrender.com`
+Base URL: `https://t-rex-star.onrender.com`
 
 | Route | Purpose |
 |---|---|
@@ -733,13 +733,13 @@ Hardened with least-privilege `contents: read` tokens and concurrency cancellati
 
 | Signal | Source | Where to look |
 |---|---|---|
-| **API usage per route** | `http_requests_total` — counts by method, route, and status code | [`/metrics`](https://stellartrust.onrender.com/metrics) (public) |
-| **Latency distribution** | `http_request_duration_seconds` histogram per route | [`/metrics`](https://stellartrust.onrender.com/metrics) |
-| **Funnel / conversion** | SEP-10 challenge → verify → order → lock → release counters on the same metric | [`/metrics`](https://stellartrust.onrender.com/metrics) |
-| **Errors** | 4xx/5xx buckets of `http_requests_total`, plus Pino error logs with request IDs | [`/metrics`](https://stellartrust.onrender.com/metrics) · Render → Logs |
-| **Financial anomalies** | `alerts_total` and `reconciliation_unresolved_mismatches` | [`/metrics`](https://stellartrust.onrender.com/metrics) · [`/health/ready`](https://stellartrust.onrender.com/health/ready) |
+| **API usage per route** | `http_requests_total` — counts by method, route, and status code | [`/metrics`](https://t-rex-star.onrender.com/metrics) (public) |
+| **Latency distribution** | `http_request_duration_seconds` histogram per route | [`/metrics`](https://t-rex-star.onrender.com/metrics) |
+| **Funnel / conversion** | SEP-10 challenge → verify → order → lock → release counters on the same metric | [`/metrics`](https://t-rex-star.onrender.com/metrics) |
+| **Errors** | 4xx/5xx buckets of `http_requests_total`, plus Pino error logs with request IDs | [`/metrics`](https://t-rex-star.onrender.com/metrics) · Render → Logs |
+| **Financial anomalies** | `alerts_total` and `reconciliation_unresolved_mismatches` | [`/metrics`](https://t-rex-star.onrender.com/metrics) · [`/health/ready`](https://t-rex-star.onrender.com/health/ready) |
 | **Uptime / infra** | Render service metrics + deploy history | Render dashboard (owner access) |
-| **Build & test health** | Every push runs 5 CI jobs | [GitHub Actions](https://github.com/Soumen1080/StellarTrust/actions) |
+| **Build & test health** | Every push runs 5 CI jobs | [GitHub Actions](https://github.com/Soumen1080/T-rex-Star/actions) |
 | **Frontend performance** | Lighthouse on the Vercel production build | [Performance](#-performance) — 98 / 96 / 100 / 100 |
 
 > The `/metrics` output is Prometheus exposition format, so it can be scraped by Prometheus,
@@ -752,7 +752,7 @@ Hardened with least-privilege `contents: read` tokens and concurrency cancellati
 
 ### Wallet Interactions
 
-StellarTrust has onboarded **REPLACE_WITH_USER_COUNT real users**, each authenticated through SEP-10 wallet signing on Stellar testnet.
+T-rex-Star has onboarded **REPLACE_WITH_USER_COUNT real users**, each authenticated through SEP-10 wallet signing on Stellar testnet.
 
 | # | Wallet Address | Interaction | Transaction Hash |
 |---|---|---|---|
@@ -771,7 +771,7 @@ StellarTrust has onboarded **REPLACE_WITH_USER_COUNT real users**, each authenti
 Feedback is collected through a public **[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdvZuSPkXrDKKCd-VIR3HZUUs-LWYF6eg7E-0_JoVM63wcw5g/viewform)**, linked from the in-app
 feedback call-to-action, plus follow-up conversations with testnet users.
 
-> 📝 **Have you tried StellarTrust?** [Fill in the feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdvZuSPkXrDKKCd-VIR3HZUUs-LWYF6eg7E-0_JoVM63wcw5g/viewform) — it takes under a minute.
+> 📝 **Have you tried T-rex-Star?** [Fill in the feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdvZuSPkXrDKKCd-VIR3HZUUs-LWYF6eg7E-0_JoVM63wcw5g/viewform) — it takes under a minute.
 
 Summary below is drawn from REPLACE_WITH_FEEDBACK_COUNT responses.
 
@@ -827,7 +827,7 @@ Summary below is drawn from REPLACE_WITH_FEEDBACK_COUNT responses.
 ## 📁 Project Structure
 
 ```
-StellarTrust/
+T-rex-Star/
 ├── frontend/              # Next.js 15 app (App Router)
 │   └── src/
 │       ├── app/           # Routes: dashboard, escrow, disputes, rwa, kyc, settlement, admin
@@ -870,8 +870,8 @@ StellarTrust/
 ### 1 · Clone and configure
 
 ```bash
-git clone https://github.com/Soumen1080/StellarTrust.git
-cd StellarTrust
+git clone https://github.com/Soumen1080/T-rex-Star.git
+cd T-rex-Star
 
 cp infra/.env.example infra/.env     # shared local-dev template
 cp ai/.env.example    ai/.env
@@ -975,6 +975,6 @@ added to the repository yet — see [`docs/SUBMISSION_TODO.md`](docs/SUBMISSION_
 
 **Built with ❤️ on [Stellar](https://stellar.org)**
 
-[⬆ Back to top](#stellartrust)
+[⬆ Back to top](#t-rex-star)
 
 </div>

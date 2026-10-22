@@ -9,7 +9,7 @@ import {
   type CurrencyCode,
   type WalletBalanceEntry,
   type WalletBalancesResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import { decimalStringToBigInt } from "./decimal.js";
 import type { StellarClient } from "./stellar.client.js";

@@ -8,7 +8,7 @@ import {
   type DisputeDTO,
   type DisputeLogEntryDTO,
   type DisputeSettlementOutcomeDTO,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { type FormEvent, useCallback, useEffect, useRef, useState } from "react";

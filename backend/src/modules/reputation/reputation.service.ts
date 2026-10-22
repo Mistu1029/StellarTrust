@@ -6,7 +6,7 @@
  * advisory as a prior and is surfaced read-only; it never gates money movement
  * (Rules.md §6). Every update is append-only audit-logged.
  */
-import type { ReputationDTO } from "@stellartrust/shared";
+import type { ReputationDTO } from "@t-rex-star/shared";
 import type { AuditRepository } from "../audit/audit.repository.js";
 import {
   NEUTRAL_REPUTATION,

@@ -1,5 +1,5 @@
 /**
- * HTTP transport for the StellarTrust API.
+ * HTTP transport for the T-rex-Star API.
  *
  * Adds the three things a mobile client needs that a browser client does not:
  *
@@ -13,7 +13,7 @@
  *    the whole app can drop to the sign-in screen at once, rather than each
  *    screen discovering it separately.
  */
-import type { ApiError } from "@stellartrust/shared";
+import type { ApiError } from "@t-rex-star/shared";
 import { appConfig } from "../lib/config";
 import { ApiClientError, ApiTimeoutError, ApiUnreachableError } from "./errors";
 

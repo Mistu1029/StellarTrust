@@ -1,9 +1,9 @@
 /** Browser-only Stellar Wallets Kit + SEP-10 authentication flow. */
-import type { AuthSessionResponse } from "@stellartrust/shared";
+import type { AuthSessionResponse } from "@t-rex-star/shared";
 import { api } from "./api";
 
-const SESSION_KEY = "stellartrust.sep10.session";
-export const AUTH_SESSION_CHANGE_EVENT = "stellartrust:auth-session-change";
+const SESSION_KEY = "t-rex-star.sep10.session";
+export const AUTH_SESSION_CHANGE_EVENT = "t-rex-star:auth-session-change";
 let initialized = false;
 
 function notifySessionChange(): void {

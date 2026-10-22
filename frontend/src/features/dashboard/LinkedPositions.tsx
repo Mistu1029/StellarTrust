@@ -15,7 +15,7 @@
  * exists to surface.
  */
 
-import type { PositionsResponse } from "@stellartrust/shared";
+import type { PositionsResponse } from "@t-rex-star/shared";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Icon } from "@/components/Icon";

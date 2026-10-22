@@ -6,7 +6,7 @@
  * Must use {@link LEDGER_CURRENCY_DECIMALS}, not `CURRENCY_SCALE` — see that
  * constant's doc comment for why the two currently disagree for USDC.
  */
-import { LEDGER_CURRENCY_DECIMALS, type CurrencyCode } from "@stellartrust/shared";
+import { LEDGER_CURRENCY_DECIMALS, type CurrencyCode } from "@t-rex-star/shared";
 
 /** Parse a user-entered major amount (e.g. "12.5") into a minor-unit integer string. */
 export function toMinorUnits(

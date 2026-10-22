@@ -22,9 +22,9 @@ import * as LocalAuthentication from "expo-local-authentication";
 import * as SecureStore from "expo-secure-store";
 
 /** Keystore entry holding the S… secret seed. */
-const SECRET_KEY = "stellartrust.wallet.secret";
+const SECRET_KEY = "t-rex-star.wallet.secret";
 /** Keystore entry holding the G… address, readable without a biometric prompt. */
-const ADDRESS_KEY = "stellartrust.wallet.address";
+const ADDRESS_KEY = "t-rex-star.wallet.address";
 
 const SECURE_OPTIONS: SecureStore.SecureStoreOptions = {
   keychainAccessible: SecureStore.WHEN_UNLOCKED_THIS_DEVICE_ONLY,

@@ -12,7 +12,7 @@
  * table-driven over every (status, viewer) pair the state machine can see.
  */
 import { describe, expect, it } from "vitest";
-import { OrderStatus, type OrderDetailsResponse } from "@stellartrust/shared";
+import { OrderStatus, type OrderDetailsResponse } from "@t-rex-star/shared";
 import { nextAction } from "./EscrowDashboard";
 
 const BUYER = "buyer-1";

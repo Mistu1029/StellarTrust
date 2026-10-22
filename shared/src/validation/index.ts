@@ -183,7 +183,7 @@ const RESERVED_USERNAMES = new Set([
   "security",
   "staff",
   "stellar",
-  "stellartrust",
+  "t-rex-star",
   "support",
   "system",
   "treasury",

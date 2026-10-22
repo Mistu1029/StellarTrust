@@ -4,7 +4,7 @@ import {
   KycStatus,
   type AuthSessionResponse,
   type IdentityProfileResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import {
   createContext,
   useCallback,

@@ -3,7 +3,7 @@ import { ProfilePanel } from "@/features/profile/ProfilePanel";
 
 export const metadata: Metadata = {
   title: "Your profile",
-  description: "Your StellarTrust username, profile picture, and account details.",
+  description: "Your T-rex-Star username, profile picture, and account details.",
 };
 
 export default function ProfilePage() {

@@ -23,7 +23,7 @@ import {
   type DisputeDTO,
   type OrderDetailsResponse,
   type PaymentCapabilitiesResponse,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { api, ApiClientError, type WalletSignedAction } from "@/lib/api";
 import { signPreparedTransaction } from "@/lib/wallet-auth";

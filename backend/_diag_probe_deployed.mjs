@@ -1,4 +1,4 @@
-const BASE = "https://stellartrust.onrender.com";
+const BASE = "https://t-rex-star.onrender.com";
 async function call(label, method, path, headers = {}, body) {
   try {
     const res = await fetch(`${BASE}${path}`, {

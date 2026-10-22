@@ -1,4 +1,4 @@
-# StellarTrust — Product Requirements Document (PRD)
+# T-rex-Star — Product Requirements Document (PRD)
 
 > **Status:** Living document. Update on any scope, feature, or user change.
 > **Track:** Production (real product for real users).
@@ -11,7 +11,7 @@
 
 ## 1. Overview
 
-**StellarTrust** is an AI-powered cross-border escrow, liquidity settlement, and
+**T-rex-Star** is an AI-powered cross-border escrow, liquidity settlement, and
 Real-World Asset (RWA) tokenization platform built on the Stellar network.
 
 It lets businesses and individuals send cross-border payments that settle in

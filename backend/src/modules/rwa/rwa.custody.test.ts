@@ -19,7 +19,7 @@ import {
   RwaTransition,
   TokenHoldingStatus,
   TokenizationStatus,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { describe, expect, it } from "vitest";
 import { InMemoryAuditRepository } from "../audit/audit.repository.js";
 import { StaticWalletAddressResolver } from "../identity/wallet.resolver.js";

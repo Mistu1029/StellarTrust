@@ -18,7 +18,7 @@
  * (`rwa.protection.test.ts`) uses the ordinary `LedgerService` and funds
  * deliberately, which is the only way that assertion means anything.
  */
-import { EntryDirection, type CurrencyCode } from "@stellartrust/shared";
+import { EntryDirection, type CurrencyCode } from "@t-rex-star/shared";
 import { LedgerService } from "./ledger.service.js";
 import {
   InMemoryLedgerRepository,

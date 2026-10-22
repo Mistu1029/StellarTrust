@@ -20,7 +20,7 @@
  */
 import { File } from "expo-file-system";
 import { ImageManipulator, SaveFormat } from "expo-image-manipulator";
-import type { KycCaptureKind } from "@stellartrust/shared";
+import type { KycCaptureKind } from "@t-rex-star/shared";
 import { apiRequest } from "../../api/http";
 
 /** Long edge, in pixels, after downscaling. Legible for OCR, cheap to send. */

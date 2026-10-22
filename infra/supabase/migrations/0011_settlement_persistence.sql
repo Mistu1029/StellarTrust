@@ -1,4 +1,4 @@
--- StellarTrust — Phase 3 addendum: durable cross-border settlement persistence
+-- T-rex-Star — Phase 3 addendum: durable cross-border settlement persistence
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Rationale:

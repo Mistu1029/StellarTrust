@@ -7,7 +7,7 @@
  *
  * These are pure functions with no I/O so they are trivially testable.
  */
-import { EntryDirection } from "@stellartrust/shared";
+import { EntryDirection } from "@t-rex-star/shared";
 import { LedgerError } from "../../lib/errors.js";
 import type { LedgerEntryInput } from "./ledger.types.js";
 

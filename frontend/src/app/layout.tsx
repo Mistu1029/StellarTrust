@@ -4,7 +4,7 @@ import { IdentityProvider } from "@/components/IdentityProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "StellarTrust — Secure global commerce", template: "%s | StellarTrust" },
+  title: { default: "T-rex-Star — Secure global commerce", template: "%s | T-rex-Star" },
   description: "Programmable cross-border escrow, identity verification, and auditable settlement on Stellar.",
 };
 

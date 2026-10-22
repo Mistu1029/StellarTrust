@@ -1,4 +1,4 @@
--- StellarTrust — public usernames and profile avatars.
+-- T-rex-Star — public usernames and profile avatars.
 -- Forward-only Postgres/Supabase migration (Rules.md §2).
 --
 -- Why this exists

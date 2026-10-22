@@ -1,6 +1,6 @@
 "use client";
 
-import type { FeedbackSummaryDTO } from "@stellartrust/shared";
+import type { FeedbackSummaryDTO } from "@t-rex-star/shared";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Icon } from "@/components/Icon";
@@ -45,7 +45,7 @@ export function FeedbackCta() {
           <p className="mt-sm max-w-2xl text-muted-strong">
             {hasScore
               ? "Read the unfiltered verdicts, then add your own. Your name, rating and message go on the wall — your email and wallet address never do."
-              : "Nobody has reviewed StellarTrust yet. Go first — your name, rating and message go on the wall, your email and wallet address never do."}
+              : "Nobody has reviewed T-rex-Star yet. Go first — your name, rating and message go on the wall, your email and wallet address never do."}
           </p>
 
           {hasScore && summary ? (

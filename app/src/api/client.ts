@@ -1,7 +1,7 @@
 /**
- * Typed StellarTrust API client.
+ * Typed T-rex-Star API client.
  *
- * Every method is typed against `@stellartrust/shared` — the same contracts of
+ * Every method is typed against `@t-rex-star/shared` — the same contracts of
  * record the backend validates with and the web client calls through. The app
  * defines no DTO of its own: if a shape changes, this file fails to compile
  * rather than drifting from the server.
@@ -62,7 +62,7 @@ import type {
   TreasuryMovementsResponse,
   WalletBalancesResponse,
   WithdrawInput,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { apiRequest, CHAIN_TIMEOUT_MS, type RequestOptions } from "./http";
 
 /**

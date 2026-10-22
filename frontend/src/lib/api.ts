@@ -1,4 +1,4 @@
-/** Typed API client using @stellartrust/shared contracts of record. */
+/** Typed API client using @t-rex-star/shared contracts of record. */
 import type {
   ApiError,
   AuthSessionResponse,
@@ -50,11 +50,11 @@ import type {
   TreasuryMovementDTO,
   TreasuryMovementsResponse,
   WithdrawInput,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 
 const DEFAULT_API_BASE =
   process.env.NODE_ENV === "production"
-    ? "https://stellartrust.onrender.com"
+    ? "https://t-rex-star.onrender.com"
     : "http://localhost:8080";
 const API_BASE = (
   process.env.NEXT_PUBLIC_API_BASE_URL ?? DEFAULT_API_BASE
@@ -99,7 +99,7 @@ export class ApiClientError extends Error {
 export class ApiUnreachableError extends Error {
   constructor(public readonly cause: unknown) {
     super(
-      `Could not reach the StellarTrust API at ${API_BASE}. It may be offline, ` +
+      `Could not reach the T-rex-Star API at ${API_BASE}. It may be offline, ` +
         "or it may not allow requests from this site.",
     );
     this.name = "ApiUnreachableError";

@@ -14,7 +14,7 @@ import {
   ProviderCheckStatus,
   type KycProviderChecks,
   type KycRiskAdvisory,
-} from "@stellartrust/shared";
+} from "@t-rex-star/shared";
 import { config } from "../../config/index.js";
 import {
   RoutingOutcome,
